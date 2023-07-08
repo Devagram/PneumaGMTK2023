@@ -150,7 +150,9 @@ MonoBehaviour:
   isImageSet: 0
   mouseController: {fileID: 0}
   isStoringItem: 1
-  dragObject: {fileID: 11400000, guid: 05a78c9c5916ebb4f9ba66682f336d03, type: 2}
+  dragObject: {fileID: 11400000, guid: 2bd03d6d438b2e94ca83dbbb0f59afa0, type: 2}
   Location: {fileID: 0}
-  isWall: 0
-  isNotUsable: 0
+  isWall: 1
+  isNotUsable: 1
+  wall: {fileID: 11400000, guid: 02b4f32dfd100054d8b55229351f8ae4, type: 2}
+  noUse: {fileID: 11400000, guid: a59de73b65860394e801cdf33dcd8bda, type: 2}

@@ -8,6 +8,7 @@ public class Slot : MonoBehaviour
     public Button button;
     public bool isImageSet = false;
     public MouseController mouseController;
+    protected bool isLocked = false;
     #region Item data
     public bool isStoringItem = false;
     public DragableObject dragObject;
@@ -54,6 +55,7 @@ public class Slot : MonoBehaviour
     }
     public void AttemptMouseExchange()
     {
+        if (isLocked) { return; }
         if (mouseController.mouseSlot.dragObject != null && dragObject != null) //swaps items
         {
             DragableObject tempStore = dragObject;
