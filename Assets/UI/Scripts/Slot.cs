@@ -9,6 +9,7 @@ public class Slot : MonoBehaviour
     public bool isImageSet = false;
     public MouseController mouseController;
     protected bool isLocked = false;
+    public RangeManager rangeManager;
     #region Item data
     public bool isStoringItem = false;
     public DragableObject dragObject;
@@ -17,6 +18,9 @@ public class Slot : MonoBehaviour
 
     public void Start()
     {
+        rangeManager = GameObject.FindWithTag("RangeUI").GetComponent<RangeManager>();
+        if (rangeManager == null) { Debug.Log("missing RangeUI tag/ or RangeManager component"); }
+
         mouseController = GameObject.FindWithTag("MouseUI").GetComponent<MouseController>();
         if (mouseController == null) { Debug.Log("missing MouseUI tag/ or MouseController component"); }
 
@@ -55,9 +59,18 @@ public class Slot : MonoBehaviour
     }
     public void AttemptMouseExchange()
     {
-        if (isLocked) { return; }
-        if (mouseController.mouseSlot.dragObject != null && dragObject != null) //swaps items
+
+        if (isLocked)
+        { return; }
+        
+        if (mouseController.mouseSlot.dragObject != null && mouseController.mouseSlot.dragObject.name != "Empty" ) 
         {
+            if (!rangeManager.CheckRange(mouseController.mouseSlot.dragObject.rangedisable, transform)) 
+            { return; }
+        }
+        if (mouseController.mouseSlot.dragObject != null && (dragObject != null || dragObject.name != "Empty")) //swaps items
+        {
+            
             DragableObject tempStore = dragObject;
 
             dragObject = mouseController.mouseSlot.dragObject;
@@ -72,7 +85,7 @@ public class Slot : MonoBehaviour
 
             return;
         }
-        if (mouseController.mouseSlot.dragObject == null && dragObject != null) //places in mouse
+        if ((mouseController.mouseSlot.dragObject == null || mouseController.mouseSlot.dragObject.name == "Empty") && dragObject != null) //places in mouse
         {
             mouseController.mouseSlot.dragObject = dragObject;
             dragObject = null;
@@ -81,7 +94,7 @@ public class Slot : MonoBehaviour
 
             return;
         }
-        if (mouseController.mouseSlot.dragObject != null && dragObject == null) // places in Area
+        if (mouseController.mouseSlot.dragObject != null && (dragObject == null || mouseController.mouseSlot.dragObject.name == "Empty"))// places in slot
         {
             dragObject = mouseController.mouseSlot.dragObject;
             ItemUp();
@@ -90,7 +103,8 @@ public class Slot : MonoBehaviour
             isImageSet = false;
 
             return;
-        }
+        } 
+
     }
 
 }
