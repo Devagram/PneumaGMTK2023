@@ -26,7 +26,7 @@ public class AreaSlot : Slot
             if (isNotUsable) 
             {
                 dragObject = noUse;
-                isLocked = true;
+
             }
             isChecked = true;
         }
