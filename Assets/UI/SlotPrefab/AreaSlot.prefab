@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2617957104924093118}
   m_Layer: 5
   m_Name: AreaSlot
-  m_TagString: Untagged
+  m_TagString: AreaUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -149,10 +149,10 @@ MonoBehaviour:
   button: {fileID: 0}
   isImageSet: 0
   mouseController: {fileID: 0}
-  isStoringItem: 1
+  isStoringItem: 0
   dragObject: {fileID: 11400000, guid: 2bd03d6d438b2e94ca83dbbb0f59afa0, type: 2}
   Location: {fileID: 0}
-  isWall: 1
-  isNotUsable: 1
+  isWall: 0
+  isNotUsable: 0
   wall: {fileID: 11400000, guid: 02b4f32dfd100054d8b55229351f8ae4, type: 2}
   noUse: {fileID: 11400000, guid: a59de73b65860394e801cdf33dcd8bda, type: 2}
