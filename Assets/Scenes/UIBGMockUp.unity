@@ -13652,8 +13652,8 @@ Tilemap:
   - first: {x: -1, y: 7, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 27
-      m_TileSpriteIndex: 27
+      m_TileIndex: 31
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 12
       m_TileObjectToInstantiateIndex: 65535
@@ -14055,7 +14055,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 5dfee0c903074cb4e8b9023b78141940, type: 2}
   - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 3e0ecd16067fb4648ac37553afcbbf23, type: 2}
-  - m_RefCount: 26
+  - m_RefCount: 25
     m_Data: {fileID: 11400000, guid: 2c6f797917ff7914f802cd37f6e52db7, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 39d0d5e8a21a5b1478ab8641e939bc38, type: 2}
@@ -14063,8 +14063,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: f570a0d23abc2ed46bc52cfb84ac8442, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 2136732f30a651149be090b1cc035b37, type: 2}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 727a7d616a40b2a4a81db6ad1686a291, type: 2}
   - m_RefCount: 26
     m_Data: {fileID: 11400000, guid: b822f706a59f3a44ab97bb02f2a01250, type: 2}
   - m_RefCount: 1
@@ -14074,8 +14074,8 @@ Tilemap:
   m_TileSpriteArray:
   - m_RefCount: 4
     m_Data: {fileID: -1777986169, guid: 34d9ea5f0c1863c47ad6d887fcb0afdc, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -830366289, guid: 34d9ea5f0c1863c47ad6d887fcb0afdc, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 842961538, guid: 34d9ea5f0c1863c47ad6d887fcb0afdc, type: 3}
   - m_RefCount: 3
@@ -14126,7 +14126,7 @@ Tilemap:
     m_Data: {fileID: -1092058545, guid: 34d9ea5f0c1863c47ad6d887fcb0afdc, type: 3}
   - m_RefCount: 5
     m_Data: {fileID: 426644509, guid: 34d9ea5f0c1863c47ad6d887fcb0afdc, type: 3}
-  - m_RefCount: 26
+  - m_RefCount: 25
     m_Data: {fileID: 1756505488, guid: 34d9ea5f0c1863c47ad6d887fcb0afdc, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 1064859588, guid: 34d9ea5f0c1863c47ad6d887fcb0afdc, type: 3}
