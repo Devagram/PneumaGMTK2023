@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 6197652902005907718}
   - component: {fileID: 7947732691616427745}
   - component: {fileID: 4001921360959386182}
-  - component: {fileID: 2617957104924093118}
+  - component: {fileID: 8292782677779358924}
   m_Layer: 5
-  m_Name: itemSlot
+  m_Name: inventorySlot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.022694906, g: 0.9622642, b: 0.08982533, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -100,10 +100,10 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_HighlightedColor: {r: 0, g: 1, b: 0.9604411, a: 1}
+    m_PressedColor: {r: 1, g: 0, b: 0, a: 1}
+    m_SelectedColor: {r: 0, g: 1, b: 0.0575552, a: 1}
+    m_DisabledColor: {r: 0, g: 0, b: 0, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -121,8 +121,20 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7947732691616427745}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
---- !u!114 &2617957104924093118
+      m_Calls:
+      - m_Target: {fileID: 8292782677779358924}
+        m_TargetAssemblyTypeName: InventorySlot, Assembly-CSharp
+        m_MethodName: AttemptMouseExchange
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8292782677779358924
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,11 +143,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 7979663898200063924}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39059ae33ce89624682dc00b9574e0e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 20964560fcb94954e99082a45756f04a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isWall: 1
-  isNotUsable: 1
-  dragObject: {fileID: 0}
-  displaySprite: {fileID: 0}
+  button: {fileID: 0}
+  isImageSet: 0
+  mouseController: {fileID: 0}
+  isStoringItem: 1
+  dragObject: {fileID: 11400000, guid: 8e58cbae7af1e9840a330715acded94c, type: 2}
   Location: {fileID: 0}
