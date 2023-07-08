@@ -1,37 +1,52 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
+using UnityEditorInternal.Profiling.Memory.Experimental;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class MouseController : MonoBehaviour
 {
-    private DragableObject heldObject = null;
-    private bool isOverItem = false;
-    private bool isOverSlot = false;
-    private bool isOverNull = true; // intial state used is you dont want to drop an item. any unplacable area. 
+    public float mouseHeldItemLagSpeed = 0.01f;
+    public MouseSlot mouseSlot;
+
+    private void Start()
+    {
+        mouseSlot = GetComponent<MouseSlot>();
+        if (mouseSlot == null ) { Debug.Log("child mouseSlot missing"); }
+
+    }
 
     // Update is called once per frame
     void Update()
     {
+        //code used to move item with mouse
+        Vector3 a = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
+        a.Set(a.x, a.y, this.transform.position.z);
+        this.transform.position = Vector3.Lerp(this.transform.position, a, mouseHeldItemLagSpeed);
+
         if (Input.GetMouseButtonDown(0))
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out RaycastHit hitInfo))
-            {
-
+            bool onUI = EventSystem.current.IsPointerOverGameObject();
+            if (!onUI) 
+            { 
+                VacantMouse(mouseSlot.dragObject);
             }
         }
+        else 
+        {
+           // comment here 
+        }
     }
-    private void OnMouseEnter()
+    public void VacantMouse(DragableObject heldItem)  // used to release items back to old location. 
     {
-       
-
+        if (heldItem == null)
+        { return; }
+        else 
+        { 
+            //droping back into inventory. 
+        }
+        Debug.Log("MouseController not over ui");
     }
-    public void MoveItemToMouse(DragableObject helditem) 
-    {
-        //helditem.Location= Input.mousePosition;  // conversion needed
-    }
 
-    private bool itemCheck() 
-        { return true; }
 }
