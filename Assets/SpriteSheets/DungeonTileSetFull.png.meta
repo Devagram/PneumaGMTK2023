@@ -1,0 +1,3924 @@
+fileFormatVersion: 2
+guid: 34d9ea5f0c1863c47ad6d887fcb0afdc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DungeonTileSetFull_0
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 684
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8501263413f263f4aaaa7b3e0becfeaa
+      internalID: -374105565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 684
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad4d4620aaf6ee429fa639e48c349a2
+      internalID: -1152893680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 684
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15330684e1ec84c40be6de19766f6eef
+      internalID: 487913292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_3
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 684
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a24108b9423c29458045abe0e8f81e5
+      internalID: 815875875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 684
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074a0670ed5137f45bd9869021560bab
+      internalID: -2091505579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 668
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575d962c41e21c44ca818454961a1fc8
+      internalID: -1873084096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 668
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b130839e73d26a84e95b9635315f51a3
+      internalID: -565574835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 668
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a757d3a318cca494ab6e6092dd6d2b7e
+      internalID: 1680067604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 668
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001a9ba38db11704e8e46b3c8f987886
+      internalID: -1512957690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 668
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611b874773b84f44dad2cf82ddca28ab
+      internalID: 2053980165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 668
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6401239958c229940ae64964e712610f
+      internalID: -503450851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 668
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3901db7edb1ffb04fa2593c592d26b16
+      internalID: -1375370720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 668
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3a11dfe4425774aba97f2b682d8c96
+      internalID: -1350650585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_13
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 668
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7148d4e42e51ff143982a48bb5de8815
+      internalID: 1265853749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 668
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e77ce8f5905b0e47a98ecb310884106
+      internalID: 233049576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 668
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2b692050dba5f468b8260f69544479
+      internalID: -214465553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_16
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 668
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8109e2e0903c0424a8a0f5e237737d62
+      internalID: -480712456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 668
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b1074ceb70db4499ae28682dd987e7
+      internalID: -45623717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_18
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 668
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f2a268365b1e243aae7b79bd4c1a30
+      internalID: 522196999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 668
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bc0cf26f73af14cbca0999e5e3ea25
+      internalID: -1921508460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 652
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a067156dc592ca242b78e09a07a618de
+      internalID: 1348256532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 652
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f706ebb833aef7b439b3d5f6536c1fc6
+      internalID: 842961538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_22
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 652
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325cf96ab203a474888662db30363a97
+      internalID: 274251623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 652
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af5fa66761833640ac7999eaa2cf3f9
+      internalID: 1314550314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 652
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062fe22ad470c5348bf65c354ddac96b
+      internalID: 258405993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 652
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083c95ce12415ed4ab99946b36ddfaad
+      internalID: 138961864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 652
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c0f72279937074aaa3b2ff80cb2a7d
+      internalID: -1198036589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_27
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 652
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3f7fe7301c74845ad830662896ace6
+      internalID: -1045053757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_28
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 652
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee4724692f132340aef2182771399d8
+      internalID: 119329364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 652
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4496a5719a2e4fe40b322ad8475c1172
+      internalID: -1986560127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_30
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 652
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98154361d5249e242a83092f9585484d
+      internalID: -1906030341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 652
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97d6fdafc0b3314b94ce28430aec64b
+      internalID: 1641022549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_32
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 652
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143051f67aa5cb24d946dad27edbfbe9
+      internalID: -2049158764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_33
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 652
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5500105e00277048a1c79dc32ecbeb3
+      internalID: -479043586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 652
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce512eed4d651d4d8f325dd3c07e136
+      internalID: 546014859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_35
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 652
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a995d9f48bb9ec6439e649d1150095fc
+      internalID: -771223572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_36
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 652
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ceb452f910a3b74bac673622aa9f877
+      internalID: 499605244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_37
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 636
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47f5bb94ee5ed94c865ac33aef40402
+      internalID: 1064859588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_38
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 636
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c1826d5eaba334b8cd3a539370eb6a
+      internalID: 303354392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_39
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 636
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab4e670b167cb74fb84d2586b5e2da5
+      internalID: 1258385055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 636
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11c043dac1aab44a9c992a0511dff58
+      internalID: -743790404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 636
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb3fc97b8d2ccf4b83b22b15e36c0c9
+      internalID: 1760989475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 636
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58d876243f03904facca678e4b6b72c
+      internalID: -1363495707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_43
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 636
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f6e4723d4d72943842e7b8a4bc57ed
+      internalID: 1404920888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 636
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff22f3a9474a9d4c8d3d4ddf63c781e
+      internalID: -1506558214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_45
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 636
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a48fe7552b9e546937277fdfcb222d
+      internalID: 260135973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 636
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5c21955843eb9428f8c004ace18618
+      internalID: -211865129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_47
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 636
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fbe4fcdd76a8148ab27a66786dc40f
+      internalID: -446270054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_48
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 636
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400204f489e05f8428789e91af7eafb5
+      internalID: -1245047076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_49
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 636
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989193d427dfcf4469d5326b2dbd028a
+      internalID: 244352443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_50
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 636
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a3f7f73835af44baa756a4d8e78293
+      internalID: 1170740488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_51
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 636
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9d631d894705d4796a09e576221f1d
+      internalID: 818771555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_52
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 636
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f361147755b6e147bb52543d1a818db
+      internalID: 1855648152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_53
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 636
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4789f540d08ed44bd1d8df76337be1
+      internalID: -1573478203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_54
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 636
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1debd5901a092b84a91f6fd2859da0aa
+      internalID: 2031005510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_55
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 636
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337dd518a5824fc4d9d1b0410757f561
+      internalID: -1847839980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_56
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 636
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82f6d3a1254bea46b86563ef58a4792
+      internalID: -2106236481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_57
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 636
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c16b2c3ea56bd04dab7b31899b173cf
+      internalID: -1029309893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_58
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 620
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a5f736524fbfc48855ca1a7374d9a2
+      internalID: -1621341814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_59
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 620
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12da32fa1ab7a0440baa0db4b37eba61
+      internalID: -1639680121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_60
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 620
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60f014001adc71428081d5695c471ff
+      internalID: -376787896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_61
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 620
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad45ab438c110d42bf5fcef52fe645a
+      internalID: 295322801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_62
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 620
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492d0ab8c4b8cc84b97fc56e2aea8b04
+      internalID: -379772875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_63
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 620
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfcdebfba10a34d4d8294d44cfb638d6
+      internalID: -1848401250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_64
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 620
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc362389d019264aa3ebccfe546a15e
+      internalID: 1920003996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_65
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 620
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0784ba1da6da44d8c2928c5d25b26e
+      internalID: 936623388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_66
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 620
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555684362c05e894da8dd506cf0f30c1
+      internalID: 2056529902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_67
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 620
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1315e42048a6944b03e4363ebea354
+      internalID: 1559298187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_68
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 620
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d7fa688e4b23943a21573e7fd7448f
+      internalID: -1994357692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_69
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 620
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210bfcefeadb7c34cba5f6f48baad111
+      internalID: 1756505488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_70
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 620
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07399327f8e22b46800d2e5bdf013f7
+      internalID: 1956544283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_71
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 620
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c619d6499e99ac949a7bfd8ccfbbd5af
+      internalID: 1060090788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_72
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 604
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572022d9c43e70040b75a53fb879f227
+      internalID: 1930805022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 604
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a292467eee0e1074c88a436ed749e111
+      internalID: -195233555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_74
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 604
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cb90c51a521c84f9cbbcc43e308ab7
+      internalID: 1165717515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_75
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 604
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b32661ee3dab2a44ab97403fa1877fb
+      internalID: -187782636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_76
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 604
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d8eb1316ce5db4b814989d1056dc91
+      internalID: 1033285993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_77
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 604
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a03cb34a024984d9c90e237ea38cf3
+      internalID: 2107379228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_78
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 604
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f39f9d0ee1a1d49a6621f2cafe0d20
+      internalID: -1150242996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_79
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 604
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d895a7e442df24eb2815751b625d87
+      internalID: -867866067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 604
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e293c81e6bc5645985e721ca50282f
+      internalID: -1811527118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_81
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 604
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98570af36676aa341bed3b36a96fe2cc
+      internalID: 1913183892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_82
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 604
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0609df9a94df768489601654e56cfc72
+      internalID: -388889097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_83
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 604
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d470e1cacb2a19a45a1c4242131532fc
+      internalID: -253548459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 604
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d178c6a01922f4fa082916bd7c69a7
+      internalID: 708572982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_85
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 604
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b08c145719d4143bdd0b3c15a9d651
+      internalID: 1717463563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_86
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 604
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e114ffbe9776d2e46946066da3a849ed
+      internalID: 1225478171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_87
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 604
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df47ad6ceae19b340b1ae1ef0d6497f4
+      internalID: -1261457617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_88
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 604
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9341ddc1a570435409e068bc1e1f5572
+      internalID: 357211558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_89
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 604
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81772b9a5f8f3246aae2648854bca1c
+      internalID: 3788895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_90
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 604
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b4d81124b2f6d408b198b93cd1e065
+      internalID: -954683117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_91
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 588
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7ae55849d53a346b53664aab07f1a6
+      internalID: 957798372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_92
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 588
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2936b225a735482418abbe6769f24a75
+      internalID: -1489157621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_93
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 588
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b89bc4e50116744f9ddfab016df429c
+      internalID: 1807154078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_94
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 588
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c278745c0537740bc5f09631fdda62
+      internalID: -1494805291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_95
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 588
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09fa4567aea27a499779a1b4d13649f
+      internalID: -758279683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_96
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 588
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a5747997e49d1469544e266ac6f708
+      internalID: -456814272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_97
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 588
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1795315f43a7345b7fa51ef37183ff
+      internalID: -189240347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_98
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 588
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967c048518e3f7c4cb0d46e268e75751
+      internalID: -1946166498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_99
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 588
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3305fef92ee25e94b81f7e55c2824c08
+      internalID: 2021055006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_100
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 588
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c2d512a38108e4fb4e6ba2e4dbe568
+      internalID: 2073768036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_101
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 588
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7872325ae9903c043b041d3ce2b8b80c
+      internalID: -1736139612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_102
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 588
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d313c7c24c5a64491a0a4202c3ebea
+      internalID: 1416288091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_103
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 588
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51821b870363c1948888d8796e279665
+      internalID: -1424804217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_104
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 588
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fced7bf3bb915545b2f3eb62ffe6078
+      internalID: -1174380450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_105
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 588
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9137561df732d46ba30c46aad8491b
+      internalID: 803136322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_106
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 588
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384c6f79a850ec4458e42e67cad3fa2b
+      internalID: -2013425168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_107
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 588
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af358e7f6f900a24ba665075ec3146c1
+      internalID: 426644509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_108
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c4eb08c96869a4e9133b60d85f3d9a
+      internalID: 1056492538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_109
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff26d2007c8dd5478747f8a2d206cd6
+      internalID: 858251601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_110
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbb14973b024e94486e8229452e65de
+      internalID: -1192067617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_111
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e6f3837f48bcd4e8392567a84ff08e
+      internalID: 473528106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_112
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca77058f297c82a41a0dd21c7f963706
+      internalID: -1078245892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_113
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e16a5b40d244d49a872310d02dc144
+      internalID: -356068698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_114
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42082a0ebeceb2b46888be5e735739ce
+      internalID: -1327182074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_115
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9163687230ddd4fb8af97574107684
+      internalID: 2109800554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_116
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564890555b597c9409d7b9ad528193eb
+      internalID: 1310033569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_117
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58af06a502b148a4a8bc6d40ea6e3eb7
+      internalID: -2117309803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_118
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430a8c382453398499fce9fc6bda974f
+      internalID: -939959555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_119
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc098eb80f65205449562250fd333b4a
+      internalID: -1948625352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_120
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0e77fc965b5234c941c4c4bd6914bf
+      internalID: -833316082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_121
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1d6ce9351421342b61090b12dea79c
+      internalID: 577391592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_122
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 556
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c480e3b208ebc46ad765d38590985d
+      internalID: 1624798895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_123
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 556
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f22b1eeabc0718448663534fdff9283
+      internalID: 886382988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_124
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 556
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ff0441f37f44b438086dca0d436929
+      internalID: -479358713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_125
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 556
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c045dff476e69439fcf1b1486b3d8a
+      internalID: 388514295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_126
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 556
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2684e5b8b9891b94c80d724c9ec994ae
+      internalID: -398281468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_127
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 556
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a8dd33247a48a4fbfc3e7d7f20e1fa
+      internalID: -830366289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_128
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 556
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ef57337f02b07489298c92829a48fd
+      internalID: -1126362864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_129
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 556
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d4b21f6996ecc47a937eb2dab338d7
+      internalID: 1790644485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_130
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 556
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f59445aedeb1442bd740e608556d5b
+      internalID: 603102005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_131
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 556
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e97601022fcd445877460e5fd11037
+      internalID: -1777986169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_132
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 556
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fc87823892ddc46bcb94c58a629f6e
+      internalID: -719590316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_133
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 556
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb030d666aeab44397c6ae8d0bd7b89
+      internalID: -29601363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_134
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 556
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e29befcc3bfd3143be7fe6491b42ab7
+      internalID: -360137253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_135
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 556
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2739f9fcc3694174dbea5e4a9f5e6c40
+      internalID: 1870665630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_136
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 556
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d0bb590eecba74c86c43764cff8bb0
+      internalID: -1092058545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_137
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 556
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2277285d6f583d347bf12df9ace4c261
+      internalID: -95947995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_138
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 556
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a05e69a895a7ca4798a3affa9ca2aa9
+      internalID: 1131588481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_139
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 540
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963b127cf774332428a13d72eb9c1b32
+      internalID: -1878887138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_140
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 540
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb790a3569b1764aa2f51b14ebc83b1
+      internalID: 1890099939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_141
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 540
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b6f184d220bf5468ada15d9a57742f
+      internalID: 1085916035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_142
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 540
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0032761123925e49ba6f83ad2e292c2
+      internalID: 1679362762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_143
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 540
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a825ba8e5c7c102499778a6d80071f2d
+      internalID: 1595222802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_144
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 540
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07550d9c0434ad24786fc940f48056a2
+      internalID: 254628484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_145
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 540
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd959d6ac9a42147a74cd1876ddd661
+      internalID: 1121520737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_146
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 540
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb53def47e17384c9cdbbd5c1696059
+      internalID: 1408853013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_147
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 540
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc36b9cf12e3b3478825b331338b677
+      internalID: -917362824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_148
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 524
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0449f0fd9f2ef4f924c84ba263e099
+      internalID: -1045974438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_149
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 524
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dac5b2b8162634428c63c5f5792b97c
+      internalID: 732274578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_150
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 524
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfc15bd1be87d442bd05789fd67f0a6
+      internalID: 546710060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_151
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 524
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990b06da622a5ed44a303e186fd588e6
+      internalID: 41395377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_152
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 524
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239ee96df55fdb94cb64c200722ea3e3
+      internalID: 1543709870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_153
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 524
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21a8fe4f11cbd1468e83d76e87f6fae
+      internalID: 1390724291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_154
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 524
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f29430d10a0404479235aba96be5e81
+      internalID: -1232762734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_155
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 524
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1919879207a283b408b9dc95d034a150
+      internalID: -454643528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_156
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 524
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67550411f799d1f40a634465ed9f22fa
+      internalID: -624304745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_157
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 508
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b2f6d73c4b01c4389f60cae47ecc75
+      internalID: 1173777115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_158
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 508
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ea02e51eca62b4a9cc1de9c6650cbc
+      internalID: 2123033048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_159
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 508
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e19ce53074594f4a888b4fccab5f86d
+      internalID: 510639366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_160
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 508
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398f32bea8d569741982535b2535cf9b
+      internalID: 713660922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_161
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 508
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758d0367b680b9a458b9d8c70f362e49
+      internalID: 1141061937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_162
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 508
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0635723b3dfd1794e936d16c9eca58aa
+      internalID: 2123196572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_163
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 508
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33eb2c658eb39034aafc80e43ebc9295
+      internalID: 1414466918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_164
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 508
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8551f43d2e9c154e9fbf311f0e8f3e9
+      internalID: -1070874021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_165
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 508
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0582c82169aae4a8a0b7310823cac0
+      internalID: -1212203294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_166
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 492
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7db0e7f464e1a41a9da136848c8914
+      internalID: -507055121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_167
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 492
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f967bc6d0ed5446b23c703f46e93f0
+      internalID: -994933610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_168
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 492
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1176c2766c55dc4f822643816836096
+      internalID: -695410297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_169
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 492
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d869aaa0d299547b70390cbc5ea53c
+      internalID: 1451896428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_170
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 492
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44783a8a27c47d445a7ef33d39e88dcf
+      internalID: 2136802556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetFull_171
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 492
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6db0fc7d3bdc2449a81ca718afbee0
+      internalID: -419865932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DungeonTileSetFull_0: -374105565
+      DungeonTileSetFull_1: -1152893680
+      DungeonTileSetFull_10: -503450851
+      DungeonTileSetFull_100: 2073768036
+      DungeonTileSetFull_101: -1736139612
+      DungeonTileSetFull_102: 1416288091
+      DungeonTileSetFull_103: -1424804217
+      DungeonTileSetFull_104: -1174380450
+      DungeonTileSetFull_105: 803136322
+      DungeonTileSetFull_106: -2013425168
+      DungeonTileSetFull_107: 426644509
+      DungeonTileSetFull_108: 1056492538
+      DungeonTileSetFull_109: 858251601
+      DungeonTileSetFull_11: -1375370720
+      DungeonTileSetFull_110: -1192067617
+      DungeonTileSetFull_111: 473528106
+      DungeonTileSetFull_112: -1078245892
+      DungeonTileSetFull_113: -356068698
+      DungeonTileSetFull_114: -1327182074
+      DungeonTileSetFull_115: 2109800554
+      DungeonTileSetFull_116: 1310033569
+      DungeonTileSetFull_117: -2117309803
+      DungeonTileSetFull_118: -939959555
+      DungeonTileSetFull_119: -1948625352
+      DungeonTileSetFull_12: -1350650585
+      DungeonTileSetFull_120: -833316082
+      DungeonTileSetFull_121: 577391592
+      DungeonTileSetFull_122: 1624798895
+      DungeonTileSetFull_123: 886382988
+      DungeonTileSetFull_124: -479358713
+      DungeonTileSetFull_125: 388514295
+      DungeonTileSetFull_126: -398281468
+      DungeonTileSetFull_127: -830366289
+      DungeonTileSetFull_128: -1126362864
+      DungeonTileSetFull_129: 1790644485
+      DungeonTileSetFull_13: 1265853749
+      DungeonTileSetFull_130: 603102005
+      DungeonTileSetFull_131: -1777986169
+      DungeonTileSetFull_132: -719590316
+      DungeonTileSetFull_133: -29601363
+      DungeonTileSetFull_134: -360137253
+      DungeonTileSetFull_135: 1870665630
+      DungeonTileSetFull_136: -1092058545
+      DungeonTileSetFull_137: -95947995
+      DungeonTileSetFull_138: 1131588481
+      DungeonTileSetFull_139: -1878887138
+      DungeonTileSetFull_14: 233049576
+      DungeonTileSetFull_140: 1890099939
+      DungeonTileSetFull_141: 1085916035
+      DungeonTileSetFull_142: 1679362762
+      DungeonTileSetFull_143: 1595222802
+      DungeonTileSetFull_144: 254628484
+      DungeonTileSetFull_145: 1121520737
+      DungeonTileSetFull_146: 1408853013
+      DungeonTileSetFull_147: -917362824
+      DungeonTileSetFull_148: -1045974438
+      DungeonTileSetFull_149: 732274578
+      DungeonTileSetFull_15: -214465553
+      DungeonTileSetFull_150: 546710060
+      DungeonTileSetFull_151: 41395377
+      DungeonTileSetFull_152: 1543709870
+      DungeonTileSetFull_153: 1390724291
+      DungeonTileSetFull_154: -1232762734
+      DungeonTileSetFull_155: -454643528
+      DungeonTileSetFull_156: -624304745
+      DungeonTileSetFull_157: 1173777115
+      DungeonTileSetFull_158: 2123033048
+      DungeonTileSetFull_159: 510639366
+      DungeonTileSetFull_16: -480712456
+      DungeonTileSetFull_160: 713660922
+      DungeonTileSetFull_161: 1141061937
+      DungeonTileSetFull_162: 2123196572
+      DungeonTileSetFull_163: 1414466918
+      DungeonTileSetFull_164: -1070874021
+      DungeonTileSetFull_165: -1212203294
+      DungeonTileSetFull_166: -507055121
+      DungeonTileSetFull_167: -994933610
+      DungeonTileSetFull_168: -695410297
+      DungeonTileSetFull_169: 1451896428
+      DungeonTileSetFull_17: -45623717
+      DungeonTileSetFull_170: 2136802556
+      DungeonTileSetFull_171: -419865932
+      DungeonTileSetFull_18: 522196999
+      DungeonTileSetFull_19: -1921508460
+      DungeonTileSetFull_2: 487913292
+      DungeonTileSetFull_20: 1348256532
+      DungeonTileSetFull_21: 842961538
+      DungeonTileSetFull_22: 274251623
+      DungeonTileSetFull_23: 1314550314
+      DungeonTileSetFull_24: 258405993
+      DungeonTileSetFull_25: 138961864
+      DungeonTileSetFull_26: -1198036589
+      DungeonTileSetFull_27: -1045053757
+      DungeonTileSetFull_28: 119329364
+      DungeonTileSetFull_29: -1986560127
+      DungeonTileSetFull_3: 815875875
+      DungeonTileSetFull_30: -1906030341
+      DungeonTileSetFull_31: 1641022549
+      DungeonTileSetFull_32: -2049158764
+      DungeonTileSetFull_33: -479043586
+      DungeonTileSetFull_34: 546014859
+      DungeonTileSetFull_35: -771223572
+      DungeonTileSetFull_36: 499605244
+      DungeonTileSetFull_37: 1064859588
+      DungeonTileSetFull_38: 303354392
+      DungeonTileSetFull_39: 1258385055
+      DungeonTileSetFull_4: -2091505579
+      DungeonTileSetFull_40: -743790404
+      DungeonTileSetFull_41: 1760989475
+      DungeonTileSetFull_42: -1363495707
+      DungeonTileSetFull_43: 1404920888
+      DungeonTileSetFull_44: -1506558214
+      DungeonTileSetFull_45: 260135973
+      DungeonTileSetFull_46: -211865129
+      DungeonTileSetFull_47: -446270054
+      DungeonTileSetFull_48: -1245047076
+      DungeonTileSetFull_49: 244352443
+      DungeonTileSetFull_5: -1873084096
+      DungeonTileSetFull_50: 1170740488
+      DungeonTileSetFull_51: 818771555
+      DungeonTileSetFull_52: 1855648152
+      DungeonTileSetFull_53: -1573478203
+      DungeonTileSetFull_54: 2031005510
+      DungeonTileSetFull_55: -1847839980
+      DungeonTileSetFull_56: -2106236481
+      DungeonTileSetFull_57: -1029309893
+      DungeonTileSetFull_58: -1621341814
+      DungeonTileSetFull_59: -1639680121
+      DungeonTileSetFull_6: -565574835
+      DungeonTileSetFull_60: -376787896
+      DungeonTileSetFull_61: 295322801
+      DungeonTileSetFull_62: -379772875
+      DungeonTileSetFull_63: -1848401250
+      DungeonTileSetFull_64: 1920003996
+      DungeonTileSetFull_65: 936623388
+      DungeonTileSetFull_66: 2056529902
+      DungeonTileSetFull_67: 1559298187
+      DungeonTileSetFull_68: -1994357692
+      DungeonTileSetFull_69: 1756505488
+      DungeonTileSetFull_7: 1680067604
+      DungeonTileSetFull_70: 1956544283
+      DungeonTileSetFull_71: 1060090788
+      DungeonTileSetFull_72: 1930805022
+      DungeonTileSetFull_73: -195233555
+      DungeonTileSetFull_74: 1165717515
+      DungeonTileSetFull_75: -187782636
+      DungeonTileSetFull_76: 1033285993
+      DungeonTileSetFull_77: 2107379228
+      DungeonTileSetFull_78: -1150242996
+      DungeonTileSetFull_79: -867866067
+      DungeonTileSetFull_8: -1512957690
+      DungeonTileSetFull_80: -1811527118
+      DungeonTileSetFull_81: 1913183892
+      DungeonTileSetFull_82: -388889097
+      DungeonTileSetFull_83: -253548459
+      DungeonTileSetFull_84: 708572982
+      DungeonTileSetFull_85: 1717463563
+      DungeonTileSetFull_86: 1225478171
+      DungeonTileSetFull_87: -1261457617
+      DungeonTileSetFull_88: 357211558
+      DungeonTileSetFull_89: 3788895
+      DungeonTileSetFull_9: 2053980165
+      DungeonTileSetFull_90: -954683117
+      DungeonTileSetFull_91: 957798372
+      DungeonTileSetFull_92: -1489157621
+      DungeonTileSetFull_93: 1807154078
+      DungeonTileSetFull_94: -1494805291
+      DungeonTileSetFull_95: -758279683
+      DungeonTileSetFull_96: -456814272
+      DungeonTileSetFull_97: -189240347
+      DungeonTileSetFull_98: -1946166498
+      DungeonTileSetFull_99: 2021055006
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
