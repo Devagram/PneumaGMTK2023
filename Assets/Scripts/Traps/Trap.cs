@@ -1,13 +1,14 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Traps
 {
+    [RequireComponent(typeof(TrapAnimator))]
     public class Trap : MonoBehaviour
     {
         [SerializeField]
         public string currentStateString;
+        public TrapAnimator trapAnimator;
         public enum State
         {
             Ready,
@@ -27,7 +28,7 @@ namespace Traps
         [SerializeField]
         public bool possessed = false;
         [SerializeField]
-        public Collision2D colidedWith;
+        public Collider2D collidedWith;
 
         void Start()
         {
@@ -38,6 +39,8 @@ namespace Traps
             {
                 currentState = State.Deactivated;
             }
+
+            trapAnimator = GetComponent<TrapAnimator>();
         }
 
         private void Update()
@@ -63,9 +66,9 @@ namespace Traps
             isActive = true;
         }
 
-        void OnCollisionEnter2D(Collision2D col)
+        void OnTriggerEnter2D(Collider2D col)
         {
-            colidedWith = col;
+            collidedWith = col;
             Debug.Log("Trap collided with");
             if (!possessable && isActive)
             {
@@ -74,18 +77,19 @@ namespace Traps
         }
         void OnCollisionExit2D()
         {
-            colidedWith = null;
+            collidedWith = null;
         }
 
-        public void OnTriggered(Collision2D col)
+        public void OnTriggered(Collider2D col)
         {
             if (currentState == State.Ready && isActive)
             {
-                TriggerLogic(col.gameObject);
+                StartCoroutine(TriggerLogic(col.gameObject));
             }
         }
         public IEnumerator TriggerLogic(GameObject triggeringObj){
             currentState = State.Triggered;
+            trapAnimator.PlayTrapAnimation();
             TrapTriggerBehavior(triggeringObj);
             isActive = false;
             yield return new WaitForSeconds(cooldownTime);
