@@ -18,9 +18,7 @@ public class MouseController : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out RaycastHit hitInfo))
             {
-                if (hitInfo.collider.gameObject.GetComponent<MouseCollider>() != null)
-                {
-                }
+
             }
         }
     }
@@ -31,7 +29,7 @@ public class MouseController : MonoBehaviour
     }
     public void MoveItemToMouse(DragableObject helditem) 
     {
-        helditem.Location = Input.mousePosition;  // conversion needed
+        //helditem.Location= Input.mousePosition;  // conversion needed
     }
 
     private bool itemCheck() 
