@@ -9,4 +9,6 @@ public class DragableObject : ScriptableObject
     public bool isInPlayArea = false;
     public Sprite itemizedSprite; // appearance when held by mouse
     public int rangedisable = 0;
+
+    public GameObject PrefabItem; // 
 }
