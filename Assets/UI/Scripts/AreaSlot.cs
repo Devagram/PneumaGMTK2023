@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -20,6 +21,10 @@ public class AreaSlot : Slot
         { 
             if (isWall) 
             {
+                var tempHold = GetComponent<Image>();
+                Color32 tempColor = new Color32 ();
+                tempColor.a = 0;
+                tempHold.color = tempColor;
                 dragObject = wall;
                 isLocked = true;
             }

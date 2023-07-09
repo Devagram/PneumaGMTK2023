@@ -35,9 +35,13 @@ public class Pathfinder : MonoBehaviour
 
         cells = new List<GameObject>();
         GameObject[] areaSlotsArray = playableSpace.GetComponent<RangeManager>().areaSlots;
+        
+
         for (int i = 0; i < areaSlotsArray.Length; i++)
         {
-            cells.Add(areaSlotsArray[i]);
+            GameObject tempchild = areaSlotsArray[i].transform.GetChild(0).gameObject;
+            //
+            cells.Add(tempchild);
         }
 
         visitedCells = new List<int>();
@@ -84,7 +88,7 @@ public class Pathfinder : MonoBehaviour
 
         for (int i = 0; i < cellWalkableNeighborsIndex.Length; i++)
         {
-            if (cellWalkableNeighborsIndex[i] != -1 && cells[cellWalkableNeighborsIndex[i]].GetComponent<AreaSlot>().isWall)
+            if (cellWalkableNeighborsIndex[i] != -1 && cells[cellWalkableNeighborsIndex[i]].transform.parent.GetComponent<AreaSlot>().isWall)
             {
                 cellWalkableNeighborsIndex[i] = -1;
             }
@@ -98,7 +102,7 @@ public class Pathfinder : MonoBehaviour
         visitedCells.Add(currentCellIndex);
         stackedCells.Remove(currentCellIndex);
 
-        if (currentCell.GetComponent<Slot>().dragObject.name == "Goal")
+        if (currentCell.transform.parent.GetComponent<Slot>().dragObject.name == "Goal")
         {
             return currentCell;
         }
