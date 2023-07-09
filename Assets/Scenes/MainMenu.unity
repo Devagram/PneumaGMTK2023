@@ -2515,6 +2515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 633260161}
+  mouseClick: {fileID: 8300000, guid: cb583d55f9e0e9348987fc5a77271821, type: 3}
 --- !u!1 &648194086
 GameObject:
   m_ObjectHideFlags: 0
