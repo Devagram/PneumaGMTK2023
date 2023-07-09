@@ -45,25 +45,30 @@ namespace Traps
 
         private void Update()
         {
-            currentStateString = currentState.ToString();            
-            if (possessable && possessed && isActive)
+            currentStateString = currentState.ToString();
+            if (isActive)
             {
-                currentState = State.Ready;
-                if (Input.GetKeyDown(KeyCode.Space))
+                if (!possessable)
                 {
-                    //FireTrap();
+                    currentState = State.Ready;
                 }
-            } if (!possessable && isActive)
-            {
-                currentState = State.Ready;
-            }
-            
-        }
+                else
+                {
+                    if (collidedWith != null && Input.GetKeyDown(KeyCode.E))
+                    {
+                        possessed = true;
+                    }
 
-        public IEnumerator Cooldown()
-        {
-            yield return new WaitForSeconds(cooldownTime);
-            isActive = true;
+                    if (possessed)
+                    {
+                        currentState = State.Ready;
+                        if (Input.GetKeyDown(KeyCode.Space))
+                        {
+                            OnFired();
+                        }
+                    }
+                }
+            }
         }
 
         void OnTriggerEnter2D(Collider2D col)
@@ -72,58 +77,56 @@ namespace Traps
             Debug.Log("Trap collided with");
             if (!possessable && isActive)
             {
-                OnTriggered(col);
+                OnTriggered();
             }
         }
-        void OnCollisionExit2D()
+        void OnTriggerExit2D()
         {
             collidedWith = null;
+            possessed = false;
         }
 
-        public void OnTriggered(Collider2D col)
+        public void OnTriggered()
         {
+            Debug.Log("Trap triggered");
             if (currentState == State.Ready && isActive)
             {
-                StartCoroutine(TriggerLogic(col.gameObject));
+                TriggerLogic();
             }
         }
-        public IEnumerator TriggerLogic(GameObject triggeringObj){
+        public void TriggerLogic(){
             currentState = State.Triggered;
             trapAnimator.PlayTrapAnimation();
-            TrapTriggerBehavior(triggeringObj);
+            TrapTriggerBehavior(collidedWith.gameObject);
             isActive = false;
-            yield return new WaitForSeconds(cooldownTime);
-            Cooldown();
+            StartCoroutine(Cooldown());
         }
-        /*public void OnFired()
+
+        public void OnFired()
         {
             Debug.Log("Trap fired manually");
             if (currentState == State.Ready && isActive)
             {
                 FiredLogic();
             }
-        }*/
-        /*public IEnumerator FiredLogic()
+        }
+        public void FiredLogic()
         {
             currentState = State.Triggered;
-            TrapFireBehavior(colidedWith.gameObject);
+            trapAnimator.PlayTrapAnimation();
+            TrapFireBehavior(collidedWith.gameObject);
             isActive = false;
-            yield return new WaitForSeconds(cooldownTime);
-            Cooldown();
-        }*/
-        public virtual void TrapTriggerBehavior(GameObject triggeringObj) {}
-        //public virtual void TrapFireBehavior(GameObject objToHit) {}
+            StartCoroutine(Cooldown());
+        }
 
-        /*public void FireTrap()
+        private IEnumerator Cooldown()
         {
-            if (colidedWith != null)
-            {
-                OnFired();
-            }
-            else
-            {
-                 //miss
-            }
-        }*/
+            yield return new WaitForSeconds(cooldownTime);
+            isActive = true;
+            currentState = State.Ready;
+        }
+
+        public virtual void TrapTriggerBehavior(GameObject triggeringObj) {}
+        public virtual void TrapFireBehavior(GameObject firingObj) {}
     }
 }
