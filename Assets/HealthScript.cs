@@ -28,7 +28,7 @@ public class HealthScript : MonoBehaviour
 
     public void Damage(int damageAmt)
     {
-        Debug.Log(name + "DMGED" + damageAmt +"HP"+ currentHealth);
+        //Debug.Log(name + "DMGED" + damageAmt +"HP"+ currentHealth);
         currentHealth = currentHealth - damageAmt;
     }
 }

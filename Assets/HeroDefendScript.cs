@@ -15,7 +15,7 @@ public class HeroDefendScript : MonoBehaviour
     public string hostileTag;
 
     // Update is called once per frame
-    void Update()
+    void Start()
     {
         if (!isAttacking)
         {
@@ -53,7 +53,7 @@ public class HeroDefendScript : MonoBehaviour
         
         if (collision.gameObject.CompareTag(hostileTag))
         {
-            Debug.Log("Bump found with tag: " + collision.gameObject.tag);
+            //Debug.Log("Bump found with tag: " + collision.gameObject.tag);
             isAttacking = true;
             mob = collision.gameObject;
             mobHP = collision.gameObject.GetComponent<HealthScript>();  
@@ -66,7 +66,7 @@ public class HeroDefendScript : MonoBehaviour
         if (collision.gameObject.CompareTag(hostileTag))
         {
             isAttacking = false;
-            animContrl.PlayIdleAnimation();
+            animContrl.PlayRunAnimation();
         }
     }
 }
