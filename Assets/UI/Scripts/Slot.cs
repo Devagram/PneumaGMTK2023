@@ -31,18 +31,20 @@ public class Slot : MonoBehaviour
             { isStoringItem = true; }
         else 
             { isStoringItem=false; }
-    }
-    void Update()
-    {
-        if (!isImageSet && isStoringItem == true)
-            {
-            ItemUp();
-            }
 
-        if (isStoringItem == false) 
+        if (!isImageSet && isStoringItem == true)
+        {
+            ItemUp();
+        }
+
+        if (isStoringItem == false)
         {
             ItemDown();
         }
+    }
+    void Update()
+    {
+        
 
     }
     public void ItemUp()

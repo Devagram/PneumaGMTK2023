@@ -8,7 +8,7 @@ public class RangeManager : MonoBehaviour
     public float rangeMultAdjuster = 16; // not sure if this is pizels or units
 
 
-    private void Start()
+    private void Awake()
     {
         areaSlots = GameObject.FindGameObjectsWithTag("AreaUI");
         if (areaSlots == null) 
