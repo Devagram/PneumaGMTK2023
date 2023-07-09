@@ -25,7 +25,6 @@ public class Pathfinder : MonoBehaviour
     private int targetCellIndex;
 
     private int[] neighbors;
-    private int walkableNeighbors;
 
     void Start()
     {
@@ -36,9 +35,13 @@ public class Pathfinder : MonoBehaviour
 
         cells = new List<GameObject>();
         GameObject[] areaSlotsArray = playableSpace.GetComponent<RangeManager>().areaSlots;
+        
+
         for (int i = 0; i < areaSlotsArray.Length; i++)
         {
-            cells.Add(areaSlotsArray[i]);
+            GameObject tempchild = areaSlotsArray[i].transform.GetChild(0).gameObject;
+            //
+            cells.Add(tempchild);
         }
 
         visitedCells = new List<int>();
@@ -48,9 +51,9 @@ public class Pathfinder : MonoBehaviour
     IEnumerator DelayedCenter()
     {
         isCentering = true;
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1f);
 
-        gameObject.transform.position = new Vector3(start.transform.position.x, start.transform.position.y, 0);
+        gameObject.transform.position = new Vector3(start.transform.position.x, start.transform.position.y, 0f);
 
         currentCell = start;
         currentCellIndex = cells.IndexOf(start);
@@ -85,7 +88,7 @@ public class Pathfinder : MonoBehaviour
 
         for (int i = 0; i < cellWalkableNeighborsIndex.Length; i++)
         {
-            if (cellWalkableNeighborsIndex[i] != -1 && cells[cellWalkableNeighborsIndex[i]].GetComponent<AreaSlot>().isWall)
+            if (cellWalkableNeighborsIndex[i] != -1 && cells[cellWalkableNeighborsIndex[i]].transform.parent.GetComponent<AreaSlot>().isWall)
             {
                 cellWalkableNeighborsIndex[i] = -1;
             }
@@ -99,7 +102,7 @@ public class Pathfinder : MonoBehaviour
         visitedCells.Add(currentCellIndex);
         stackedCells.Remove(currentCellIndex);
 
-        if (currentCell.GetComponent<Slot>().dragObject.name == "Goal")
+        if (currentCell.transform.parent.GetComponent<Slot>().dragObject.name == "Goal")
         {
             return currentCell;
         }
@@ -116,7 +119,7 @@ public class Pathfinder : MonoBehaviour
             }
         }
 
-        if(stackedNeighbors.Count == 0)
+        if (stackedNeighbors.Count == 0)
         {
             print("backtrack!");
             int currentIndex = visitedCells.IndexOf(currentCellIndex);
@@ -125,7 +128,6 @@ public class Pathfinder : MonoBehaviour
         }
 
         targetCellIndex = stackedNeighbors[Random.Range(0, stackedNeighbors.Count)];
-        print(targetCellIndex);
 
         return cells[targetCellIndex];
     }
@@ -146,8 +148,7 @@ public class Pathfinder : MonoBehaviour
             if (!moving)
             {
                 targetCell = FindPath();
-                targetPos = new Vector3(targetCell.transform.position.x, targetCell.transform.position.y, 0);
-                print(targetCell);
+                targetPos = new Vector3(targetCell.transform.position.x, targetCell.transform.position.y, 0f);
                 if (currentCell == targetCell)
                 {
                     print("You won!");
@@ -157,7 +158,7 @@ public class Pathfinder : MonoBehaviour
             if (gameObject.transform.position != targetPos)
             {
                 moving = true;
-                gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, targetPos, 0.02f);
+                gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, targetPos, 0.03f);
             }
             else
             {

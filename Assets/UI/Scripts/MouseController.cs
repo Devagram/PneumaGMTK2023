@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditorInternal.Profiling.Memory.Experimental;
+//using UnityEditorInternal.Profiling.Memory.Experimental;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -9,6 +9,8 @@ public class MouseController : MonoBehaviour
 {
     public float mouseHeldItemLagSpeed = 0.01f;
     public MouseSlot mouseSlot;
+    public AudioSource UISource;
+    public AudioClip mouseClick;
 
     private void Start()
     {
