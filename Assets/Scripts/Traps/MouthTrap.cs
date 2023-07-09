@@ -6,8 +6,12 @@ namespace Traps
     {
         public override void TrapTriggerBehavior(GameObject triggeringObj)
         {
-            //kill hero
-            triggeringObj.SetActive(false);
+            //Doesn't kill the playable ghost character
+            if (!triggeringObj.gameObject.tag.Equals("Ghost"))
+            {
+                //kill hero
+                triggeringObj.SetActive(false);
+            }
         }
     }
 }
