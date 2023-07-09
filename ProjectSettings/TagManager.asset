@@ -9,6 +9,8 @@ TagManager:
   - RangeUI
   - Ghost
   - Trap
+  - Hero
+  - Hostile
   layers:
   - Default
   - TransparentFX
