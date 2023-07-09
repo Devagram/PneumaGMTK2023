@@ -6,6 +6,18 @@ public class NPCAnimationController : MonoBehaviour
 {
     [SerializeField]
     public Animator animator;
+    [SerializeField]
+    public AudioSource audioSource;
+    [SerializeField]
+    public AudioClip idleClip;
+    [SerializeField]
+    public AudioClip runClip;
+    [SerializeField]
+    public AudioClip attackClip;
+    [SerializeField]
+    public AudioClip hurtClip;
+    [SerializeField]
+    public AudioClip dieClip;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,31 +26,26 @@ public class NPCAnimationController : MonoBehaviour
 
     public void PlayIdleAnimation()
     {
-        // Debug.Log(name + "IdleTrigger");
         animator.SetTrigger("IdleTrigger");
     }
 
     public void PlayRunAnimation()
     {
-        // Debug.Log(name + "RunTrigger");
         animator.SetTrigger("RunTrigger");
     }
 
     public void PlayAttackAnimation()
     {
-        // Debug.Log(name + "AttackTrigger");
         animator.SetTrigger("AttackTrigger");
     }
 
     public void PlayHurtAnimation()
     {
-        // Debug.Log(name + "HurtTrigger");
         animator.SetTrigger("HurtTrigger");
     }
 
     public void PlayDeathAnimation()
     {
-        // Debug.Log(name + "DeathTrigger");
         animator.SetTrigger("DeathTrigger");
     }
 }

@@ -9,6 +9,11 @@ namespace Traps
         [SerializeField]
         public string currentStateString;
         public TrapAnimator trapAnimator;
+        public AudioSource audioSource;
+        public AudioClip spawnClip;
+        public AudioClip triggerClip;
+        public AudioClip possessionClip;
+        public AudioClip possessionClip2;
         public enum State
         {
             Ready,
@@ -57,13 +62,20 @@ namespace Traps
                     if (collidedWith != null && Input.GetKeyDown(KeyCode.E))
                     {
                         possessed = true;
+                        audioSource.PlayOneShot(possessionClip);
                     }
 
                     if (possessed)
                     {
+                        if (collidedWith != null && Input.GetKeyDown(KeyCode.E))
+                        {
+                            possessed = false;
+                            audioSource.PlayOneShot(possessionClip2);
+                        }
                         currentState = State.Ready;
                         if (Input.GetKeyDown(KeyCode.Space))
                         {
+                            audioSource.PlayOneShot(triggerClip);
                             OnFired();
                         }
                     }
@@ -75,8 +87,10 @@ namespace Traps
         {
             collidedWith = col;
             Debug.Log("Trap collided with");
-            if (!possessable && isActive)
+            //Non-possessable traps don't affect the playable ghost
+            if (!possessable && isActive && !col.CompareTag("Ghost"))
             {
+                audioSource.PlayOneShot(triggerClip);
                 OnTriggered();
             }
         }

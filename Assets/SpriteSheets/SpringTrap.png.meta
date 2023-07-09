@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e0f4487ce6fb2ef46b9fea650fc71ef9
+guid: a4e0fbe8e371b4943a6a4a2fc129dedd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -106,186 +106,173 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spider_0
+      name: SpringTrap_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1bd1b2ec60104c43a2978ab3dc68245
-      internalID: 894399705
+      spriteID: debf24d96fc0376498878809fcf0da6f
+      internalID: 1856996605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spider_1
+      name: SpringTrap_1
       rect:
         serializedVersion: 2
         x: 16
         y: 0
         width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5d130f092a845e46ba0bd1efae6d624
-      internalID: 1219314842
+      spriteID: dd1adc0bbe3254548b44108bba9f86d2
+      internalID: 1170012353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spider_2
+      name: SpringTrap_2
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c81a2138eeaa8d4b93e08394832f0cb
-      internalID: 1091870066
+      spriteID: b33404249ed75c14d8bde578ccf56509
+      internalID: 214041275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spider_3
+      name: SpringTrap_3
       rect:
         serializedVersion: 2
         x: 48
         y: 0
         width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb5ec5bb9ff2553499132c2916d3bdbc
-      internalID: -1180391158
+      spriteID: 2fffbe8ffa0872041b713fd17857281e
+      internalID: 1686306007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spider_4
+      name: SpringTrap_4
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 495d7b22218ac0f45a1c6f1332d42275
-      internalID: -169577636
+      spriteID: fe950499971090c428b6873ce850a5b0
+      internalID: -1906025506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spider_5
+      name: SpringTrap_5
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba46e78da472dbd4fa3e25f438e57375
-      internalID: -1421131723
+      spriteID: 9a5e776d56b211c4a9ef93068fe535e0
+      internalID: -594586918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spider_6
+      name: SpringTrap_6
       rect:
         serializedVersion: 2
         x: 96
         y: 0
         width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b289dc256776a0048abd203467c3b9de
-      internalID: -43052097
+      spriteID: 5227445a018049f45ab3c45036aec58b
+      internalID: -1393178917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spider_7
+      name: SpringTrap_7
       rect:
         serializedVersion: 2
         x: 112
         y: 0
         width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8c4a855f45c0fe4cb8403fca66f2067
-      internalID: 1828590886
+      spriteID: 792c84d534f53524aa317e29a556a426
+      internalID: -1277382624
       vertices: []
       indices: 
       edges: []
@@ -301,14 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Spider_0: 894399705
-      Spider_1: 1219314842
-      Spider_2: 1091870066
-      Spider_3: -1180391158
-      Spider_4: -169577636
-      Spider_5: -1421131723
-      Spider_6: -43052097
-      Spider_7: 1828590886
+      SpringTrap_0: 1856996605
+      SpringTrap_1: 1170012353
+      SpringTrap_2: 214041275
+      SpringTrap_3: 1686306007
+      SpringTrap_4: -1906025506
+      SpringTrap_5: -594586918
+      SpringTrap_6: -1393178917
+      SpringTrap_7: -1277382624
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
