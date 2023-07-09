@@ -75,7 +75,8 @@ namespace Traps
         {
             collidedWith = col;
             Debug.Log("Trap collided with");
-            if (!possessable && isActive)
+            //Non-possessable traps don't affect the playable ghost
+            if (!possessable && isActive && !col.CompareTag("Ghost"))
             {
                 OnTriggered();
             }

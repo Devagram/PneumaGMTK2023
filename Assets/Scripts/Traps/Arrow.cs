@@ -18,7 +18,7 @@ namespace Traps
         private void OnTriggerEnter2D(Collider2D collision)
         {
             //Doesn't kill the playable ghost character
-            if (!collision.gameObject.tag.Equals("Ghost"))
+            if (!collision.gameObject.CompareTag("Ghost"))
             {
                 movementSpeed = 0;
                 collision.gameObject.SetActive(false);
