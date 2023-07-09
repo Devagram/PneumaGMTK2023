@@ -8,7 +8,7 @@ public class HostileScript : MonoBehaviour
     public float moveSpeed = 3f;
     public int attackDamage = 10;
     public HealthScript hp;
-    public NPCAnimationController animContrl;
+    //public NPCAnimationController animContrl;
     public float attackInterval = 2f;
 
     private GameObject hero;
@@ -26,7 +26,7 @@ public class HostileScript : MonoBehaviour
     {
         if (!isAttacking)
         {
-            animContrl.PlayIdleAnimation();
+            //animContrl.PlayIdleAnimation();
             FindHero();
             if (hero != null)
             {
@@ -54,7 +54,7 @@ public class HostileScript : MonoBehaviour
     private void MoveToHero()
     {
         transform.position = Vector2.MoveTowards(transform.position, hero.transform.position, moveSpeed * Time.deltaTime);
-        animContrl.PlayRunAnimation();
+        //animContrl.PlayRunAnimation();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -62,7 +62,7 @@ public class HostileScript : MonoBehaviour
         if (collision.gameObject.CompareTag(heroTag))
         {
             isAttacking = true;
-            animContrl.PlayAttackAnimation();
+            //animContrl.PlayAttackAnimation();
             StartCoroutine(AttackRoutine());
         }
     }
