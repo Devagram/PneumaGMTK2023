@@ -35,7 +35,7 @@ Transform:
   m_Children:
   - {fileID: 3522980086068141966}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6665255111478179361
 SpriteRenderer:
@@ -119,7 +119,6 @@ MonoBehaviour:
   moveSpeed: 3
   attackDamage: 5
   hp: {fileID: 1802302937039647105}
-  animContrl: {fileID: 4804275098773649809}
   attackInterval: 2
 --- !u!61 &3738021443136582825
 BoxCollider2D:
@@ -192,7 +191,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 4
 --- !u!1001 &4381262342087166735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -259,14 +258,3 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 876369428457657473, guid: 45b77b25aa55ba84eb661685e5ce90ef, type: 3}
   m_PrefabInstance: {fileID: 4381262342087166735}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4804275098773649809 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9106674668387873438, guid: 45b77b25aa55ba84eb661685e5ce90ef, type: 3}
-  m_PrefabInstance: {fileID: 4381262342087166735}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80a723ccbaafa6a46bd0a1cdc0d96a34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

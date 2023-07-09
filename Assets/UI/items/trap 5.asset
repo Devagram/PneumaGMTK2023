@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 544efb7b9e6ff5b40935c81485e4ffb3, type: 3}
-  m_Name: NoUse
+  m_Name: trap 5
   m_EditorClassIdentifier: 
   isHeldByMouse: 0
   isInInventroy: 0
   isInPlayArea: 0
-  itemizedSprite: {fileID: 21300000, guid: 106aa1696b13d804cb12450bd7a2b8ad, type: 3}
-  rangedisable: 0
-  PrefabItem: {fileID: 0}
+  itemizedSprite: {fileID: 21300000, guid: 468f497fd6d618442b07c91f97bda4a9, type: 3}
+  rangedisable: 1
+  PrefabItem: {fileID: 6772786948226844581, guid: d9e42ffca1a4968488db6248af013d9d, type: 3}
