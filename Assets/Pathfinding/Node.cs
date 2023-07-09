@@ -1,6 +1,5 @@
 using System.Collections.Generic;
-using System.Linq;
-using UnityEditor.Experimental.GraphView;
+using System.Net;
 using UnityEngine;
 
 public class Node : MonoBehaviour 
@@ -9,13 +8,18 @@ public class Node : MonoBehaviour
     public Transform localTrans;
     public float gCost;
     public float hCost;
+    public float fCost;
     public Node cameFromNode;
 
-    public void CalculateFCost() { }
-    public float CalculateDistance(Vector3 to, Vector3 From)
+    public void CalculateFCost()
     {
-        return .0f; // needs filled
+        fCost = gCost + hCost;
     }
-
+    public float CalculateDistance(Vector3 to, Vector3 from)
+    {
+        float tempDistance = Vector3.Distance(to, from);
+        Debug.Log(tempDistance + "dis");
+        return tempDistance;
+    }
 }
 

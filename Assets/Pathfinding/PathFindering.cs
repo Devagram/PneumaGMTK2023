@@ -1,16 +1,19 @@
 using System.Collections.Generic;
 using System.Linq;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using static UnityEngine.UI.Image;
 
-public class pathFindering : MonoBehaviour
+public class PathFindering : MonoBehaviour
 {
     public List<Transform> destinations = new List<Transform>(); //small path storage
     public List<Node> areaBank = new List<Node>();
-    public int wanderRange = 3;// distance before re-wanderPath
+    public int wanderRange = 16;// distance before re-wanderPath
     public int senceDistance = 5; // distance to engage chest
     public int stepToExit = 2; // amount of wander paths before direct exitpath
     private List<Node> openNodes;
     private List<Node> closedNodes;
+    public GameObject nodePrefab;
 
     private void Start() //done  may want to call this right before stage changes hero movement so it is most up to date . start is for testing. 
     {
@@ -26,13 +29,16 @@ public class pathFindering : MonoBehaviour
             }
             else if (!checkComp.isWall) // is it a wall ignore it
             {
-                Node newNode = new Node(); ;
-                newNode.localTrans = slot.transform; /// there maybe be an offsset +-8 on x and y axis in tansforms. 
-                areaBank.Add(newNode);
+                checkComp.PopulateNeighbors();// this needs checked{nessecity. }
+                GameObject newNode = Instantiate(nodePrefab, gameObject.transform, checkComp.Location);
+                Node nodeNet = newNode.GetComponent<Node>();
+                nodeNet.localTrans.position = checkComp.Location.position;
+                nodeNet.transform.position = checkComp.transform.position;/// there maybe be an offsset +-8 on x and y axis in tansforms. 
+                areaBank.Add(nodeNet);
             }
         }
     }
-    public Node FindClosestTransform(GameObject requestingHero) //done
+    public Node FindClosestTransformNode(GameObject requestingHero) //done
     {
         Node leastDistance = null;
         float currentMinimum = 1000;
@@ -47,18 +53,18 @@ public class pathFindering : MonoBehaviour
         }
         return leastDistance;
     }
-    public Transform WanderPath(GameObject requestingHero, Transform closestSlotToCurrentLocation) // needs to call the path finder function //also needs to return list
+    public List<Node> WanderPath(GameObject requestingHero, Node closestSlotToCurrentLocation) // needs to call the path finder function //also needs to return list
     { 
-        Transform tempPath = null;
+        Node destinationNode = null;
         //picks random direction and pathfinds to location
         int index = Random.Range( 0,areaBank.Count);
-        float distanceOfSlot = Vector3.Distance(closestSlotToCurrentLocation.position, areaBank[index].localTrans.position);
+        float distanceOfSlot = Vector3.Distance(closestSlotToCurrentLocation.localTrans.position, areaBank[index].localTrans.position);
         if (distanceOfSlot <= wanderRange)
         {
-            tempPath = areaBank[index].localTrans;
+            destinationNode = areaBank[index];
         }
+        return FindPathToDestination(closestSlotToCurrentLocation,destinationNode);
 
-        return tempPath;
     }
     public List<Transform> SencePath(GameObject requestingHero, Transform closestSlotToCurrentLocation) // needs to call the path finder function
     {
@@ -74,40 +80,42 @@ public class pathFindering : MonoBehaviour
         return destinations;
     }
 
-    public List<Node> FindPathToDestination(Node startNode, Node desiredNode, GameObject requestingHero)
+    public List<Node> FindPathToDestination(Node startNode, Node desiredNode)
     {
         openNodes = new List<Node> { startNode };
         closedNodes = new List<Node>();
         for (int i = 0; i < areaBank.Count; i++)
         {
             areaBank[i].gCost = 1000f;
-            areaBank[i].CalculateFCost(); // need to simplify a function here
+            areaBank[i].CalculateFCost();
             areaBank[i].cameFromNode = null;
         }
         startNode.gCost = 0f;
-        startNode.hCost = startNode.CalculateDistance(startNode.transform.position, desiredNode.transform.position);
+        startNode.hCost = startNode.CalculateDistance(startNode.localTrans.position, desiredNode.localTrans.position);
+        
         startNode.CalculateFCost();
 
         //the loop
 
         while (openNodes.Count > 0)
         {
-            Node thisGridPoint = GetLowestFCostNode(openNodes); // is this the right list to check.. sould it be the total list?
-            if (thisGridPoint == desiredNode)
+            Node newTempNode = GetLowestFCostNode(openNodes);
+            if (newTempNode == desiredNode)
             {
                 return CalculatedPath(desiredNode);
+                Debug.Log("check");
             }
-            openNodes.Remove(thisGridPoint);
-            closedNodes.Add(thisGridPoint);  //should this be happening. 
-            foreach (Node neighbor in thisGridPoint.closeNeighbors)
+            openNodes.Remove(newTempNode);
+            closedNodes.Add(newTempNode);
+            foreach (Node neighbor in newTempNode.closeNeighbors)
             {
-                float tempDistance = neighbor.CalculateDistance(neighbor.transform.position, thisGridPoint.transform.position);
-                float tentativeGCost = thisGridPoint.gCost + tempDistance;
+                float tempDistance = neighbor.CalculateDistance(neighbor.localTrans.position, newTempNode.localTrans.position);
+                float tentativeGCost = newTempNode.gCost + tempDistance;
                 if (tentativeGCost < neighbor.gCost)
                 {
-                    neighbor.cameFromNode = thisGridPoint;
+                    neighbor.cameFromNode = newTempNode;
                     neighbor.gCost = tentativeGCost;
-                    neighbor.hCost = neighbor.CalculateDistance(neighbor.transform.position, desiredNode.transform.position);
+                    neighbor.hCost = neighbor.CalculateDistance(neighbor.localTrans.position, desiredNode.localTrans.position);
                     neighbor.CalculateFCost();
                     if (!openNodes.Contains(neighbor))
                     {
@@ -121,11 +129,33 @@ public class pathFindering : MonoBehaviour
     }
     public Node GetLowestFCostNode(List<Node> openNodes) 
     {
-        return null;// needs filled in 
+        Node lowestCostNode = openNodes[0];
+        for (int i = 0; i < openNodes.Count; i++)
+        {
+            if (openNodes[i].fCost < lowestCostNode.fCost)
+            {
+                lowestCostNode = openNodes[i];
+            }
+        }
+        return lowestCostNode;
     }
     public List<Node> CalculatedPath(Node lastNode) 
     {
-        return null; // needs filled
+        bool isLast = true;
+        List<Node> path = new List<Node>();
+        path.Add(lastNode);
+        Node currentGridPoint = lastNode;
+        while (currentGridPoint.cameFromNode != null)
+        {
+            path.Add(currentGridPoint.cameFromNode);
+            if (isLast == true)
+            {
+                isLast = false;
+            }
+            currentGridPoint = currentGridPoint.cameFromNode;
+        }
+        path.Reverse();
+        return path;
     }
 
 }

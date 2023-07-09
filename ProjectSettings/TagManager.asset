@@ -9,6 +9,7 @@ TagManager:
   - RangeUI
   - Ghost
   - Trap
+  - PathAI
   layers:
   - Default
   - TransparentFX
