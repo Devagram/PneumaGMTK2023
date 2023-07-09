@@ -1,0 +1,2054 @@
+fileFormatVersion: 2
+guid: d6ebc0c9edea8454293804bd0674b5f5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aeabad94d5ddaf4aa739b6578a73517
+      internalID: 60943320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c670e29265521b54a92e4b8ef0c09d5d
+      internalID: -938643625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e761e159c0623eb4e802e09272dcf770
+      internalID: -2125705765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5335bb956d398f468fd7cc9dfdd3a7c
+      internalID: -1089348059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815ac035ef1287f44a4969c8a69f3f55
+      internalID: -1853488952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_5
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 0
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb259dfa0fa51064cac4bde3c9f94116
+      internalID: -416165037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46abf5727f756cc4fb245683f46984b1
+      internalID: -73295081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_7
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 0
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7319d77546b71fd409fb74c4a4a6a61a
+      internalID: 736290333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_8
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 0
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce818a27ad519444aa0e799962e254d
+      internalID: -1895321707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_9
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 0
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15397418d4079648998870de5a8b176
+      internalID: 461175762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_10
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 0
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a539f076dbdab9d43b7536ae80b63e42
+      internalID: -1524784360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_11
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 0
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec572fef65477cb4da5c2440f7ff4fb2
+      internalID: -2077979818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_12
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 0
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df235dcd4707834db422ed0a017f2ab
+      internalID: 33712151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_13
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 6
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823d2fb85ce0c724ca5c52a00e0a9c18
+      internalID: -374837023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_14
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 0
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7784b2ef4903fac4bb37699df7dcb1ac
+      internalID: -1189488905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_15
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 0
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811e672355fd60048a51ba424141e170
+      internalID: 534790329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_16
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 0
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a56808e827a734c99a1ce40521d120
+      internalID: -2124773941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_17
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465b10d728cf9c54b8b4950e0edac031
+      internalID: 1944173169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_18
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 0
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a986e6fca9284eb458ca8d28f24b3257
+      internalID: -1797042970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_19
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 0
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ab7659dde715340bac992f8ba08e8a
+      internalID: -801775513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_20
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 0
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8a63181dab4024f92736acc8ce8ca3
+      internalID: -569146298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_21
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 0
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34fa676e95523f43a3fd7d676728467
+      internalID: -1412275532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_22
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 6
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18921b283d7077c4783a8327e562b624
+      internalID: -1365555693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_23
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 0
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f05cdf4f30c2954da2bf0e7ea964f9f
+      internalID: -521305379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_24
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 0
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c78b459ccf80f44ba281ac6aa3a0d4
+      internalID: -563407487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_25
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 0
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1832e78419ee02c4bb7aabb73ca24503
+      internalID: 2135687464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_26
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 0
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a90ed7d327af2458001c7a4b919f08
+      internalID: -1004059332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_27
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 0
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca53594a1424b924192900894021ac0a
+      internalID: -1068270804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_28
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 0
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c85a7de1161d1240beeb98b8ecfe4a5
+      internalID: 69626421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_29
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 0
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f638c659020f294ab62f3af66e1252c
+      internalID: 1064775921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_30
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 2
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110d5a7100a7b474f87171fc3ca24054
+      internalID: 2101759997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_31
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 0
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220f5591192c79a45aac7da4afdb7a6b
+      internalID: -340853640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_32
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 0
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc127f0b966ac9c4788c2f2ef23afe1b
+      internalID: 883241998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_33
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 0
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b00dcad90d2c04da660c6a748bed48
+      internalID: 712685423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_34
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 0
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3eb81265d8f604a983373e1788cef0
+      internalID: -517156183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_35
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 0
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a70e15f322f2541a2ce0ebee5cc0fe
+      internalID: -1145121238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_36
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 4
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faede0caf7b59bb48929be2c962289d3
+      internalID: -745278707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_37
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 0
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098a47e4b1b413142bbea10f29f0965d
+      internalID: -468342581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_38
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 0
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012d7e582705be448b8867cbb9806366
+      internalID: -470656511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_39
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 0
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bf8f1726cf29f408362b656c6d58c1
+      internalID: 480595884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_40
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 0
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2c2e643b03e9d43aed936a77b1c1ec
+      internalID: 2108081553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_41
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 0
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46026041a423e640b97468e106b6d4a
+      internalID: -225606626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_42
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 0
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b5a8a2cc73ed944baade3e7c7e52f4
+      internalID: -1872476309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_43
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 0
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afac9f7450c075b46a35d9ef9e9a3ae9
+      internalID: -507020832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_44
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 0
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c5f701ede655844830ca461984fb6c
+      internalID: 1456888884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_45
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 2
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b5d7737d1815243991d3f3e7d513fe
+      internalID: -2077113122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_46
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 6
+        width: 47
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55a0a1d94e353f41ab2b5718e86bfe8
+      internalID: 183472565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_47
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 0
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ed5e0fc8e279d43b911638b3a31922
+      internalID: 1854795107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_48
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 0
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11340ba54212f4f47b57e73370317882
+      internalID: 294216429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_49
+      rect:
+        serializedVersion: 2
+        x: 2271
+        y: 0
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e35d1be4280964ca27a37a3f836047
+      internalID: -463162417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_50
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 0
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cb4fad47ccb5c4aa46a63d5a18d747
+      internalID: -842917414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_51
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 0
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed16d2467567ba44591c45f5284c3d75
+      internalID: 1078796970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_52
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 0
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214f2dc31b0e1f04b8a483a61612d2c0
+      internalID: 980969189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_53
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 0
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc3904caada8ab49905b13794b0e3ec
+      internalID: 985734822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_54
+      rect:
+        serializedVersion: 2
+        x: 2514
+        y: 0
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c4887f947128b4bb5f9b3871b5696d
+      internalID: -1888602755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_55
+      rect:
+        serializedVersion: 2
+        x: 2527
+        y: 0
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c38c3c39201744086459f77e72fa44
+      internalID: -1300256321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_56
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 0
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9463bebee35056b4c8740d724cc0487c
+      internalID: 69444579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_57
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 0
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a5b4c1b15cf6f44aab1d13c3d7dbed
+      internalID: -1224437690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_58
+      rect:
+        serializedVersion: 2
+        x: 2649
+        y: 0
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99dc14c847e00a4d97a991b5b70021c
+      internalID: -1721203712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_59
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 0
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0470ac175b0b8504fb3ac51cd595cdd9
+      internalID: 1316633515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_60
+      rect:
+        serializedVersion: 2
+        x: 2743
+        y: 0
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fd2a24395b6b6459c2a3a2654b6ae0
+      internalID: 1980054545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_61
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 0
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af71ef2ae6b446744b82d602b153018c
+      internalID: 749864099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_62
+      rect:
+        serializedVersion: 2
+        x: 2839
+        y: 0
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733b57d735b296a4f9b92f7718e9884e
+      internalID: -2073575558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_63
+      rect:
+        serializedVersion: 2
+        x: 2887
+        y: 0
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd070950031af542aa4069830fb41dc
+      internalID: -1679880717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_64
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 0
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21aecb40e4247b40823ae13ec3df6d3
+      internalID: -1110876814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_65
+      rect:
+        serializedVersion: 2
+        x: 2985
+        y: 0
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968f4635ff0e3324ea0ca47e7fd6420d
+      internalID: -20791829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_66
+      rect:
+        serializedVersion: 2
+        x: 3043
+        y: 0
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5c53e807cddef48b9b53b60711ea04
+      internalID: 790961876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_67
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 8
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c2d0e6dcfa20642928e3f8f27c424d
+      internalID: -1473103340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_68
+      rect:
+        serializedVersion: 2
+        x: 3101
+        y: 4
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e233d65428c1a47b2a24bfaacfcba0
+      internalID: -2071768790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_69
+      rect:
+        serializedVersion: 2
+        x: 3133
+        y: 0
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe9d6fa0435d8749a2e46f71002de17
+      internalID: 1820377670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_70
+      rect:
+        serializedVersion: 2
+        x: 3187
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebbe350a4a201d459416817e57b0aec
+      internalID: 1814441171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_71
+      rect:
+        serializedVersion: 2
+        x: 3219
+        y: 6
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bcf174635cded4eb53bb5000cb8499
+      internalID: 1601699861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_72
+      rect:
+        serializedVersion: 2
+        x: 3231
+        y: 6
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da026ea327571fb4881e9cb7de2fde25
+      internalID: -319095066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_73
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 0
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1c68a0a5223bd49a44f596d20379eb
+      internalID: 631175580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_74
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 0
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2db0096caa8c240ae2389902d303d2
+      internalID: 648663323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_75
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 0
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74ae3591a1b65949b3f0b771edadbc5
+      internalID: 23659799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_76
+      rect:
+        serializedVersion: 2
+        x: 3422
+        y: 0
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab708276838c48c46a3cbb6ef38de05b
+      internalID: -1311865557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_77
+      rect:
+        serializedVersion: 2
+        x: 3471
+        y: 0
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060af2e02b4083545a56197c9decc76b
+      internalID: 1861849370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_78
+      rect:
+        serializedVersion: 2
+        x: 3517
+        y: 0
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fcef31a3d7de24487ec6bad1bda4c0
+      internalID: 2053212977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_79
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 0
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c76ceec1aeb8454ba7753d255c187d4
+      internalID: 330194769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_80
+      rect:
+        serializedVersion: 2
+        x: 3611
+        y: 0
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1a668f09c8e5d459368108de681c42
+      internalID: -73460321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_81
+      rect:
+        serializedVersion: 2
+        x: 3666
+        y: 0
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1ac85be5a4e884596c2c83afd75c39
+      internalID: -1870189131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_82
+      rect:
+        serializedVersion: 2
+        x: 3714
+        y: 0
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef8b281ce17c8f4988f8aacb0992d0f
+      internalID: -1367619012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_83
+      rect:
+        serializedVersion: 2
+        x: 3756
+        y: 0
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a9ab4264d019b43a39b0fb747c8b0d
+      internalID: 1034787318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_84
+      rect:
+        serializedVersion: 2
+        x: 3793
+        y: 6
+        width: 43
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbd743ffe5538647b99aa0e083a7354
+      internalID: -1703130143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_85
+      rect:
+        serializedVersion: 2
+        x: 3658
+        y: 0
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95935e31a9d89949bd673705a073d5c
+      internalID: -1576290712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GMTK 23' Knight Char-Sheet_Olin_86
+      rect:
+        serializedVersion: 2
+        x: 3707
+        y: 0
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642698366780b0a478bf20c672c29311
+      internalID: -1069640396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GMTK 23' Knight Char-Sheet_Olin_0: 60943320
+      GMTK 23' Knight Char-Sheet_Olin_1: -938643625
+      GMTK 23' Knight Char-Sheet_Olin_10: -1524784360
+      GMTK 23' Knight Char-Sheet_Olin_11: -2077979818
+      GMTK 23' Knight Char-Sheet_Olin_12: 33712151
+      GMTK 23' Knight Char-Sheet_Olin_13: -374837023
+      GMTK 23' Knight Char-Sheet_Olin_14: -1189488905
+      GMTK 23' Knight Char-Sheet_Olin_15: 534790329
+      GMTK 23' Knight Char-Sheet_Olin_16: -2124773941
+      GMTK 23' Knight Char-Sheet_Olin_17: 1944173169
+      GMTK 23' Knight Char-Sheet_Olin_18: -1797042970
+      GMTK 23' Knight Char-Sheet_Olin_19: -801775513
+      GMTK 23' Knight Char-Sheet_Olin_2: -2125705765
+      GMTK 23' Knight Char-Sheet_Olin_20: -569146298
+      GMTK 23' Knight Char-Sheet_Olin_21: -1412275532
+      GMTK 23' Knight Char-Sheet_Olin_22: -1365555693
+      GMTK 23' Knight Char-Sheet_Olin_23: -521305379
+      GMTK 23' Knight Char-Sheet_Olin_24: -563407487
+      GMTK 23' Knight Char-Sheet_Olin_25: 2135687464
+      GMTK 23' Knight Char-Sheet_Olin_26: -1004059332
+      GMTK 23' Knight Char-Sheet_Olin_27: -1068270804
+      GMTK 23' Knight Char-Sheet_Olin_28: 69626421
+      GMTK 23' Knight Char-Sheet_Olin_29: 1064775921
+      GMTK 23' Knight Char-Sheet_Olin_3: -1089348059
+      GMTK 23' Knight Char-Sheet_Olin_30: 2101759997
+      GMTK 23' Knight Char-Sheet_Olin_31: -340853640
+      GMTK 23' Knight Char-Sheet_Olin_32: 883241998
+      GMTK 23' Knight Char-Sheet_Olin_33: 712685423
+      GMTK 23' Knight Char-Sheet_Olin_34: -517156183
+      GMTK 23' Knight Char-Sheet_Olin_35: -1145121238
+      GMTK 23' Knight Char-Sheet_Olin_36: -745278707
+      GMTK 23' Knight Char-Sheet_Olin_37: -468342581
+      GMTK 23' Knight Char-Sheet_Olin_38: -470656511
+      GMTK 23' Knight Char-Sheet_Olin_39: 480595884
+      GMTK 23' Knight Char-Sheet_Olin_4: -1853488952
+      GMTK 23' Knight Char-Sheet_Olin_40: 2108081553
+      GMTK 23' Knight Char-Sheet_Olin_41: -225606626
+      GMTK 23' Knight Char-Sheet_Olin_42: -1872476309
+      GMTK 23' Knight Char-Sheet_Olin_43: -507020832
+      GMTK 23' Knight Char-Sheet_Olin_44: 1456888884
+      GMTK 23' Knight Char-Sheet_Olin_45: -2077113122
+      GMTK 23' Knight Char-Sheet_Olin_46: 183472565
+      GMTK 23' Knight Char-Sheet_Olin_47: 1854795107
+      GMTK 23' Knight Char-Sheet_Olin_48: 294216429
+      GMTK 23' Knight Char-Sheet_Olin_49: -463162417
+      GMTK 23' Knight Char-Sheet_Olin_5: -416165037
+      GMTK 23' Knight Char-Sheet_Olin_50: -842917414
+      GMTK 23' Knight Char-Sheet_Olin_51: 1078796970
+      GMTK 23' Knight Char-Sheet_Olin_52: 980969189
+      GMTK 23' Knight Char-Sheet_Olin_53: 985734822
+      GMTK 23' Knight Char-Sheet_Olin_54: -1888602755
+      GMTK 23' Knight Char-Sheet_Olin_55: -1300256321
+      GMTK 23' Knight Char-Sheet_Olin_56: 69444579
+      GMTK 23' Knight Char-Sheet_Olin_57: -1224437690
+      GMTK 23' Knight Char-Sheet_Olin_58: -1721203712
+      GMTK 23' Knight Char-Sheet_Olin_59: 1316633515
+      GMTK 23' Knight Char-Sheet_Olin_6: -73295081
+      GMTK 23' Knight Char-Sheet_Olin_60: 1980054545
+      GMTK 23' Knight Char-Sheet_Olin_61: 749864099
+      GMTK 23' Knight Char-Sheet_Olin_62: -2073575558
+      GMTK 23' Knight Char-Sheet_Olin_63: -1679880717
+      GMTK 23' Knight Char-Sheet_Olin_64: -1110876814
+      GMTK 23' Knight Char-Sheet_Olin_65: -20791829
+      GMTK 23' Knight Char-Sheet_Olin_66: 790961876
+      GMTK 23' Knight Char-Sheet_Olin_67: -1473103340
+      GMTK 23' Knight Char-Sheet_Olin_68: -2071768790
+      GMTK 23' Knight Char-Sheet_Olin_69: 1820377670
+      GMTK 23' Knight Char-Sheet_Olin_7: 736290333
+      GMTK 23' Knight Char-Sheet_Olin_70: 1814441171
+      GMTK 23' Knight Char-Sheet_Olin_71: 1601699861
+      GMTK 23' Knight Char-Sheet_Olin_72: -319095066
+      GMTK 23' Knight Char-Sheet_Olin_73: 631175580
+      GMTK 23' Knight Char-Sheet_Olin_74: 648663323
+      GMTK 23' Knight Char-Sheet_Olin_75: 23659799
+      GMTK 23' Knight Char-Sheet_Olin_76: -1311865557
+      GMTK 23' Knight Char-Sheet_Olin_77: 1861849370
+      GMTK 23' Knight Char-Sheet_Olin_78: 2053212977
+      GMTK 23' Knight Char-Sheet_Olin_79: 330194769
+      GMTK 23' Knight Char-Sheet_Olin_8: -1895321707
+      GMTK 23' Knight Char-Sheet_Olin_80: -73460321
+      GMTK 23' Knight Char-Sheet_Olin_81: -1870189131
+      GMTK 23' Knight Char-Sheet_Olin_82: -1367619012
+      GMTK 23' Knight Char-Sheet_Olin_83: 1034787318
+      GMTK 23' Knight Char-Sheet_Olin_84: -1703130143
+      GMTK 23' Knight Char-Sheet_Olin_85: -1576290712
+      GMTK 23' Knight Char-Sheet_Olin_86: -1069640396
+      GMTK 23' Knight Char-Sheet_Olin_9: 461175762
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
