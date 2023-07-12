@@ -29,8 +29,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659691604705439185}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.24, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 4.27, y: 0.53, z: 0}
+  m_LocalScale: {x: 0.412699, y: 0.40794286, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -74,9 +74,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1709270237
+  m_SortingLayer: 2
+  m_SortingOrder: 46
   m_Sprite: {fileID: 220178546, guid: 6b6cb1b374ca1f1418a88afd8f40e2cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -87,7 +87,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!95 &6209156767406700873
 Animator:
   serializedVersion: 5
@@ -141,18 +141,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.00000011920929, y: -0.48472226}
+  m_Offset: {x: -0.00000011920929, y: 0.0022973418}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0692456, y: 1.0767195}
+  m_Size: {x: 1.0692456, y: 1.0710894}
   m_EdgeRadius: 0
 --- !u!114 &4926738593770579646
 MonoBehaviour:
@@ -185,6 +185,7 @@ MonoBehaviour:
   triggerClip: {fileID: 0}
   possessionClip: {fileID: 0}
   possessionClip2: {fileID: 0}
+  trapType: MouthTrap
   triggerDuration: 1.2
   cooldownTime: 10
   isActive: 1

@@ -12,7 +12,7 @@ public class NewHeroWanderScript : MonoBehaviour
     private bool hasGoal;
     //public LayerMask obstacleLayer;
     public LayerMask goalLayer;
-    private Collider2D aiCollider;
+    //private Collider2D aiCollider;
     private float timer = 0f;
    //private bool canRaycast = true;
     private Vector2 currentDirection;
@@ -22,7 +22,7 @@ public class NewHeroWanderScript : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         hasGoal = false;
-        aiCollider = GetComponent<Collider2D>();
+        //aiCollider = GetComponent<Collider2D>();
         currentDirection = Vector2.right;
     }
 
@@ -110,7 +110,7 @@ public class NewHeroWanderScript : MonoBehaviour
     {
         // Handle collision enter event
         // Access collision information and perform actions
-        Debug.Log("Hit! + " + collision.gameObject);
+        //Debug.Log("Hit! + " + collision.gameObject);
         float randomTurnAngle = Random.Range(90f, 35f);
         Quaternion rotation = Quaternion.Euler(0f, 0f, randomTurnAngle);
         currentDirection  = rotation * currentDirection;
@@ -122,7 +122,7 @@ public class NewHeroWanderScript : MonoBehaviour
     {
         // Handle collision enter event
         // Access collision information and perform actions
-        Debug.Log("Hit! + " + collision.gameObject);
+        //Debug.Log("Hit! + " + collision.gameObject);
         float randomTurnAngle = Random.Range(270f, 90f);
         Quaternion rotation = Quaternion.Euler(0f, 0f, randomTurnAngle);
         currentDirection = rotation * currentDirection;

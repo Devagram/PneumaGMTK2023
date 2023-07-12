@@ -11,6 +11,7 @@ TagManager:
   - Trap
   - Hero
   - Hostile
+  - env
   layers:
   - Default
   - TransparentFX

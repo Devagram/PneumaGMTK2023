@@ -33,16 +33,16 @@ public class RangeManager : MonoBehaviour
             AreaSlot checkComp = slot.GetComponent<AreaSlot>();
             if (checkComp != null)
             {
-                Debug.Log("comp found");
+                //Debug.Log("comp found");
                 if (checkComp.dragObject != null && checkComp.dragObject.name != "Empty")
                 {
-                    Debug.Log("Object is present");
+                    //Debug.Log("Object is present");
                     int othersRange = checkComp.dragObject.rangedisable;
                     currentDistance = Vector3.Distance(slot.transform.position, location.position);
                     
                     if (currentDistance <= rangeAmount * rangeMultAdjuster || currentDistance <= othersRange * rangeMultAdjuster)
                     {
-                        Debug.Log("slot in range for object in mouse");
+                        //Debug.Log("slot in range for object in mouse");
 
                         isClear = false;
                     }

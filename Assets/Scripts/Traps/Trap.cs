@@ -3,7 +3,6 @@ using UnityEngine;
 
 namespace Traps
 {
-    [RequireComponent(typeof(TrapAnimator))]
     public class Trap : MonoBehaviour
     {
         [SerializeField]
@@ -14,6 +13,7 @@ namespace Traps
         public AudioClip triggerClip;
         public AudioClip possessionClip;
         public AudioClip possessionClip2;
+        public string trapType;
         public enum State
         {
             Ready,

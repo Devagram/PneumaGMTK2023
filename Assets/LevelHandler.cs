@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using static UnityEditor.ObjectChangeEventStream;
 using System;
+using Unity.VisualScripting;
 
 public class LevelHandler : MonoBehaviour
 {
@@ -201,15 +202,19 @@ public class LevelHandler : MonoBehaviour
             
             if (!slot.isWall && slot.dragObject.PrefabItem != null)
             {
-                Debug.Log("INFO: " + slot.isWall + slot.dragObject.PrefabItem);
+                Debug.Log("INFO: " + slot.isWall + " " + slot.dragObject.PrefabItem);
                 Transform pos = slot.GetComponentInChildren<Transform>();
-
+                GameObject slotObject = slot.gameObject;
+                //Debug.Log("Type.GetType(slot.dragObject.PrefabItem.GetType().Name) + " + Type.GetType(slot.dragObject.PrefabItem.GetType().Name));
+                //slotObject.AddComponent(Type.GetType(slot.dragObject.PrefabItem);
                 GameObject instantiatedTrap = Instantiate(slot.dragObject.PrefabItem, pos.position, Quaternion.identity);
-                //instantiatedTrap.transform.parent = transform.parent; // Set the same parent
-                //instantiatedTrap.transform.localScale = transform.localScale; // Set the same scale
+                instantiatedTrap.layer = slotObject.layer;
+                instantiatedTrap.tag = slotObject.tag;
+                instantiatedTrap.transform.parent = slotObject.transform; // Set the same parent
+                //instantiatedTrap.transform.localScale = slotObject.transform.localScale; // Set the same scale
 
                 //Destroy the old object
-                //Destroy(slot);
+                //Destroy(slotObject);
             }
         }
     }
