@@ -27,6 +27,7 @@ public class AreaSlot : Slot
                 tempHold.color = tempColor;
                 dragObject = wall;
                 isLocked = true;
+               
             }
             if (isNotUsable) 
             {

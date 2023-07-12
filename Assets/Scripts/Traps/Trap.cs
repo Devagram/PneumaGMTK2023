@@ -86,9 +86,9 @@ namespace Traps
         void OnTriggerEnter2D(Collider2D col)
         {
             collidedWith = col;
-            Debug.Log("Trap collided with");
+            Debug.Log("Trap collided with: " + col.name);
             //Non-possessable traps don't affect the playable ghost
-            if (!possessable && isActive && !col.CompareTag("Ghost"))
+            if (!possessable && isActive && !col.CompareTag("Ghost") && !col.CompareTag("env"))
             {
                 audioSource.PlayOneShot(triggerClip);
                 OnTriggered();
