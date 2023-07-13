@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: test
   m_EditorClassIdentifier: 
   levelName: test
-  pitCount: 3
-  archerCount: 1
-  spikeCount: 1
-  springCount: 1
-  skeleCount: 1
-  spiderCount: 1
-  chestCount: 1
+  pitCount: 2
+  archerCount: 0
+  spikeCount: 0
+  springCount: 0
+  skeleCount: 0
+  spiderCount: 0
+  chestCount: 2
   buildPhaseLimit: 5
   numHeroes: 3

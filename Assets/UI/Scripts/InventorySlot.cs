@@ -6,4 +6,18 @@ using UnityEngine.UI;
 public class InventorySlot : Slot
 {
     //needs locking tables
+    /*public bool containsItem = false;
+
+    void Start()
+    {
+        containsItem = isStoringItem;
+    }
+
+    void Update()
+    {
+        if (gameObject.name == "EmptySlot")
+        {
+            containsItem = false;
+        }
+    }*/
 }

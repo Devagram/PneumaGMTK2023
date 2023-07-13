@@ -14,6 +14,7 @@ public class Slot : MonoBehaviour
     public bool isStoringItem = false;
     public DragableObject dragObject;
     public Transform Location;
+    public bool containsItem;
     #endregion 
 
     public void Start()
@@ -28,9 +29,9 @@ public class Slot : MonoBehaviour
         if (button == null) { Debug.Log("Button component missing"); }
         //
         if (dragObject)
-            { isStoringItem = true; }
+            { isStoringItem = true; containsItem = true; }
         else 
-            { isStoringItem=false; }
+            { isStoringItem = false; containsItem = false; }
     }
     void Update()
     {
@@ -48,12 +49,15 @@ public class Slot : MonoBehaviour
     public void ItemUp()
     {
         button.image.enabled = true;
+        containsItem = true;
         button.image.sprite = dragObject.itemizedSprite;
         isImageSet = true;
     }
     public void ItemDown() 
     {
         button.image.enabled = false;
+        //containsItem = true;
+        gameObject.name = "EmptySlot";
         // a blank transparent needs added here.   button.image.sprite =
         isImageSet = false;
     }
@@ -70,7 +74,7 @@ public class Slot : MonoBehaviour
         }
         if (mouseController.mouseSlot.dragObject != null && (dragObject != null || dragObject.name != "Empty")) //swaps items
         {
-            
+            containsItem = false;
             DragableObject tempStore = dragObject;
 
             dragObject = mouseController.mouseSlot.dragObject;
@@ -90,6 +94,7 @@ public class Slot : MonoBehaviour
             mouseController.mouseSlot.dragObject = dragObject;
             dragObject = null;
             mouseController.mouseSlot.ItemUp();
+            containsItem = false;
             mouseController.mouseSlot.isImageSet = false;
 
             return;
@@ -98,6 +103,7 @@ public class Slot : MonoBehaviour
         {
             dragObject = mouseController.mouseSlot.dragObject;
             ItemUp();
+            containsItem = true;
             mouseController.mouseSlot.dragObject = null;
             mouseController.mouseSlot.dragObject = null;
             isImageSet = false;

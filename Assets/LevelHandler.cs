@@ -6,6 +6,7 @@ using TMPro;
 using static UnityEditor.ObjectChangeEventStream;
 using System;
 using Unity.VisualScripting;
+using static UnityEditor.VersionControl.Asset;
 
 public class LevelHandler : MonoBehaviour
 {
@@ -32,6 +33,8 @@ public class LevelHandler : MonoBehaviour
     [SerializeField]
     public TextMeshProUGUI timerText;
     [SerializeField]
+    public TextMeshProUGUI goldCountText;
+    [SerializeField]
     public GameObject playSpace;
     [SerializeField]
     public AudioSource music;
@@ -45,6 +48,10 @@ public class LevelHandler : MonoBehaviour
     public GameObject heroPrefab;
     [SerializeField]
     public List<GameObject> locations;
+    [SerializeField]
+    public float startingGold;
+    [SerializeField]
+    DragableObject emptyDO;
     /*    [SerializeField]
         public AudioSource music;*/
 
@@ -54,19 +61,85 @@ public class LevelHandler : MonoBehaviour
     private int spiderSlots;
     private int archerSlots;
     private int springSlots;
+    private bool allChestsPlaced;
+
+    private float currentGold;
 
     public SpawnPoint[] spawnPoints;
 
     private Coroutine phaseCoroutine;
+
+    private bool playGame;
     //private int spikeSlots;
     // Start is called before the first frame update
     void Start()
     {
+        SetUpGoldCount();
         SetLevelName();
         SetSpawnPoints();
         CalculateSlots();
         PopulateInventory();
-        StartBuildPhase();
+        /*StartBuildPhase();*/
+    }
+
+    private void Update()
+    {
+        goldCountText.text = "GOLD: " + currentGold;
+        PlayerPrefs.SetFloat("GoldCount", currentGold);
+        
+        /*InventorySlot[] allSlots = inventory.GetComponentsInChildren<InventorySlot>();
+        bool chestInInventory = false;
+        foreach (InventorySlot slot in allSlots)
+        {
+            Debug.Log("Slot Name: " + slot.name);
+            if (slot.name == "chest" && slot.containsItem) {
+                chestInInventory = true;
+            }
+        }
+        allChestsPlaced = !chestInInventory;
+        Debug.Log("CHEST IN INVENTORY: " + chestInInventory);
+        Debug.Log("ALL CHESTS PLACED: " + allChestsPlaced);*/
+    }
+
+    public void PlayButtonPressed(GameObject pressingButton)
+    {
+        InventorySlot[] allSlots = inventory.GetComponentsInChildren<InventorySlot>();
+        bool chestInInventory = false;
+        foreach (InventorySlot slot in allSlots)
+        {
+            Debug.Log("Slot Name: " + slot.name);
+            Debug.Log("Is there an Item?: " + slot.containsItem);
+            Debug.Log("               )" + slot.dragObject.GetType().ToString());
+            if (slot.name == "chest" && slot.dragObject != emptyDO)
+            {
+                Debug.Log("FOUND A CHEST!!!!");
+                chestInInventory = true;
+                break;
+            }
+        }
+
+        if (chestInInventory == false)
+        {
+            //todo play game from countdown
+            playGame = true;
+            StartPlayPhase();
+            //turn off the button
+            pressingButton.SetActive(false);
+        } else
+        {
+            //todo warn user and prevent the game proceeding
+        }
+        Debug.Log("CHEST IN INVENTORY: " + chestInInventory);
+        Debug.Log("ALL CHESTS PLACED: " + allChestsPlaced);
+    }
+
+    public void SetUpGoldCount()
+    {
+        if (levelScriptObj.levelName == "test" || levelScriptObj.levelName == "1")
+        {
+            PlayerPrefs.SetFloat("GoldCount", startingGold);
+        }
+        currentGold = PlayerPrefs.GetFloat("GoldCount");
     }
 
     public void CalculateSlots()
@@ -131,14 +204,16 @@ public class LevelHandler : MonoBehaviour
         levelText.text = levelScriptObj.levelName;
     }
 
-    public void StartBuildPhase()
+    public void StartPlayPhase()
     {
         //List<GameObject> spaces = new List<GameObject>();
+
         float timerVar = levelScriptObj.buildPhaseLimit;
         Image[] spaces = playSpace.GetComponentsInChildren<Image>();
-        phaseCoroutine = StartCoroutine(BuildPhaseTimer(timerVar, spaces));
-
-
+        if (playGame)
+        {
+            phaseCoroutine = StartCoroutine(BuildPhaseTimer(timerVar, spaces));
+        }
     }
 
     private IEnumerator BuildPhaseTimer(float timer, Image[] spacesToManage)
