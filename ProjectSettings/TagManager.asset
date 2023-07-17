@@ -12,6 +12,8 @@ TagManager:
   - Hero
   - Hostile
   - env
+  - Goal
+  - Done
   layers:
   - Default
   - TransparentFX

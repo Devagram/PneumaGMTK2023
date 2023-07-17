@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a86bac5da863694488d0e50695c8f0c1
+guid: 1000c0e533a7d424884409be3ff3c973
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -46,10 +46,10 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  alignment: 9
+  spritePivot: {x: 0.8326023, y: 0.330044}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 112, y: 0, z: 16, w: 8}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spike trap-Sheet 1_0
+      name: SingleSpring_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c2906eaae034d74dba8f4c089c1827a
-      internalID: 1143835659
+      spriteID: 59775cba4f84847429815ace25cbc7f6
+      internalID: 1921303237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spike trap-Sheet 1_1
+      name: SingleSpring_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 17
         y: 0
-        width: 16
-        height: 16
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c424a04777e96943996574858dca8c2
-      internalID: -1930356575
+      spriteID: 61ebc4303096ddd4c81182b70f20d472
+      internalID: -477634687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spike trap-Sheet 1_2
+      name: SingleSpring_2
       rect:
         serializedVersion: 2
-        x: 32
+        x: 33
         y: 0
-        width: 16
-        height: 16
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cb265881246fb6418fcea879c8918e0
-      internalID: -501808098
+      spriteID: c2028be4d81502d43803776aa5770782
+      internalID: 1376720828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spike trap-Sheet 1_3
+      name: SingleSpring_3
       rect:
         serializedVersion: 2
-        x: 48
+        x: 49
         y: 0
-        width: 16
-        height: 16
+        width: 14
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 433be4469616d5c47b76e9a3cc776310
-      internalID: -1542227446
+      spriteID: a0710ff7229d93d48b3e917e6d6b4108
+      internalID: 285696366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spike trap-Sheet 1_4
+      name: SingleSpring_4
       rect:
         serializedVersion: 2
-        x: 64
+        x: 65
         y: 0
-        width: 16
-        height: 16
+        width: 14
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50e7c9163eb9b044499911712fee98c9
-      internalID: 1133189284
+      spriteID: 15b8600e6d48bbb49aefab4724710cd6
+      internalID: 582650348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spike trap-Sheet 1_5
+      name: SingleSpring_5
       rect:
         serializedVersion: 2
-        x: 80
+        x: 81
         y: 0
-        width: 16
-        height: 16
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a423dd670d05ec4489d7b8d8f47d19e
-      internalID: 615771354
+      spriteID: a253df4afdb411340a13e6410d1a751f
+      internalID: 224399349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spike trap-Sheet 1_6
+      name: SingleSpring_6
       rect:
         serializedVersion: 2
-        x: 96
+        x: 97
         y: 0
-        width: 16
-        height: 16
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bcaf7a70a51bb94fa6803c4193b0d19
-      internalID: -371038649
+      spriteID: b9ef5eac62204f44594c5e9914810f14
+      internalID: -1506324175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spike trap-Sheet 1_7
+      name: SingleSpring_7
       rect:
         serializedVersion: 2
         x: 112
@@ -284,8 +284,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26133cd205ed5ad4ba7812f4dad5da44
-      internalID: -188457384
+      spriteID: 88f2c18e1bbb97245b47cf0762f5d210
+      internalID: -1867846698
       vertices: []
       indices: 
       edges: []
@@ -294,21 +294,21 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spike trap-Sheet 1_0: 1143835659
-      spike trap-Sheet 1_1: -1930356575
-      spike trap-Sheet 1_2: -501808098
-      spike trap-Sheet 1_3: -1542227446
-      spike trap-Sheet 1_4: 1133189284
-      spike trap-Sheet 1_5: 615771354
-      spike trap-Sheet 1_6: -371038649
-      spike trap-Sheet 1_7: -188457384
+      SingleSpring_0: 1921303237
+      SingleSpring_1: -477634687
+      SingleSpring_2: 1376720828
+      SingleSpring_3: 285696366
+      SingleSpring_4: 582650348
+      SingleSpring_5: 224399349
+      SingleSpring_6: -1506324175
+      SingleSpring_7: -1867846698
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

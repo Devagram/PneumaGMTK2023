@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine;
 //using static UnityEditor.VersionControl.Asset;
 
-public class NewHeroWanderScript : MonoBehaviour
+public class SpiderWander : MonoBehaviour
 {
     public float moveForce = 5f;
     public float wallDetectionDistance = 1f;
@@ -41,14 +41,14 @@ public class NewHeroWanderScript : MonoBehaviour
 
     private void Update()
     {
-        if (hasGoal)
+        /*if (hasGoal)
         {
-            MoveTowardsGoal();
+            //MoveTowardsGoal();
         }
         else
-        {
+        {*/
             DetectGoal();
-        }
+        //}
         if (rb.velocity.magnitude > maxSpeed)
         {
             rb.velocity = rb.velocity.normalized * maxSpeed;

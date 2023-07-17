@@ -181,7 +181,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0041453093, y: 0.018216312}
+  m_Offset: {x: 0.93448925, y: -2.1784387}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -192,7 +192,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.91653824, y: 0.8090259}
+  m_Size: {x: 12.184076, y: 10.88779}
   m_EdgeRadius: 0
 --- !u!95 &2046130570574153924
 Animator:
@@ -230,10 +230,12 @@ MonoBehaviour:
   animator: {fileID: 2046130570574153924}
   audioSource: {fileID: 1870736460412200418}
   idleClip: {fileID: 8300000, guid: 2ade540f5a6325b4083fc94536fe63e3, type: 3}
-  runClip: {fileID: 0}
+  runClip: {fileID: 8300000, guid: 6785725c78cf6f0458bbeb123717dfeb, type: 3}
   attackClip: {fileID: 8300000, guid: c498b060b74ae2f4dbe5054d14e74cca, type: 3}
   hurtClip: {fileID: 8300000, guid: 412e6b586656b7e49909affe7f8fb6e6, type: 3}
   dieClip: {fileID: 8300000, guid: 6e3c0c94829f4474f80d3d1d84c4a0bb, type: 3}
+  spawnClip: {fileID: 8300000, guid: 2ade540f5a6325b4083fc94536fe63e3, type: 3}
+  animationState: 
 --- !u!82 &1870736460412200418
 AudioSource:
   m_ObjectHideFlags: 0
@@ -245,14 +247,14 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 7605376285048051688, guid: bde911fa43d870e4f90bf2d3c9c7e61f, type: 2}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
+  m_PlayOnAwake: 0
+  m_Volume: 0.409
+  m_Pitch: 1.28
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 52
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -342,12 +344,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4eeda24e786c6c49b35100cf6eb14e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.6
+  moveForce: 1
   wallDetectionDistance: 0.5
-  goalDetectionDistance: 1
+  goalDetectionDistance: 3
   raycastCooldown: 2
   goalObject: {fileID: 0}
   visionAngle: 90
   goalLayer:
     serializedVersion: 2
     m_Bits: 128
+  maxSpeed: 2
+  animController: {fileID: 5624836162595413775}

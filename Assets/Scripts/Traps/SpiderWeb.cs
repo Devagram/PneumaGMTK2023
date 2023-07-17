@@ -16,9 +16,10 @@ public class SpiderWeb : MonoBehaviour
     {
         //if adventurer walks over it, apply debuff
 
-        //if (adventurer)
-        //{
-        //    apply debuff
-        //}
+        if (collision.tag == "Hero")
+        {
+            NewHeroWanderScript heroScript = collision.gameObject.GetComponentInChildren<NewHeroWanderScript>();
+            heroScript.moveForce = heroScript.moveForce - .5f;
+        }
     }
 }

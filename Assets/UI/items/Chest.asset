@@ -17,4 +17,4 @@ MonoBehaviour:
   isInPlayArea: 0
   itemizedSprite: {fileID: 21300000, guid: f828c37a6f317c7479c46f6f93d646f1, type: 3}
   rangedisable: 1
-  PrefabItem: {fileID: 0}
+  PrefabItem: {fileID: 6026518258801781832, guid: 75ea3fc5934f6f64292f3a0dcd9edc76, type: 3}

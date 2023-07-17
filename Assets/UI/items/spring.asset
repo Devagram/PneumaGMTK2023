@@ -15,6 +15,6 @@ MonoBehaviour:
   isHeldByMouse: 0
   isInInventroy: 0
   isInPlayArea: 0
-  itemizedSprite: {fileID: 21300000, guid: 7cf1a4c9d71a576408112ac2dcdef8a1, type: 3}
+  itemizedSprite: {fileID: 1921303237, guid: 1000c0e533a7d424884409be3ff3c973, type: 3}
   rangedisable: 0
   PrefabItem: {fileID: 1378040371202775674, guid: 705e2beacfd402d4d83f767d702aea41, type: 3}

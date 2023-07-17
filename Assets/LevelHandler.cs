@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using static UnityEditor.ObjectChangeEventStream;
+using UnityEngine.SceneManagement;
+/*using static UnityEditor.ObjectChangeEventStream;
 using System;
 using Unity.VisualScripting;
-using static UnityEditor.VersionControl.Asset;
+using static UnityEditor.VersionControl.Asset;*/
 
 public class LevelHandler : MonoBehaviour
 {
@@ -22,6 +23,8 @@ public class LevelHandler : MonoBehaviour
     public DragableObject archerObject;
     [SerializeField]
     public DragableObject springObject;
+    [SerializeField]
+    public DragableObject spikeObject;
     //[SerializeField]
     //public DragableObject spikeObject;
     [SerializeField]
@@ -61,6 +64,7 @@ public class LevelHandler : MonoBehaviour
     private int spiderSlots;
     private int archerSlots;
     private int springSlots;
+    private int spikeSlots;
     private bool allChestsPlaced;
 
     private float currentGold;
@@ -84,6 +88,10 @@ public class LevelHandler : MonoBehaviour
 
     private void Update()
     {
+        if (currentGold <= 0)
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
         goldCountText.text = "GOLD: " + currentGold;
         PlayerPrefs.SetFloat("GoldCount", currentGold);
         
@@ -107,12 +115,12 @@ public class LevelHandler : MonoBehaviour
         bool chestInInventory = false;
         foreach (InventorySlot slot in allSlots)
         {
-            Debug.Log("Slot Name: " + slot.name);
-            Debug.Log("Is there an Item?: " + slot.containsItem);
-            Debug.Log("               )" + slot.dragObject.GetType().ToString());
+            //Debug.Log("Slot Name: " + slot.name);
+            //Debug.Log("Is there an Item?: " + slot.containsItem);
+            //Debug.Log("               )" + slot.dragObject.GetType().ToString());
             if (slot.name == "chest" && slot.dragObject != emptyDO)
             {
-                Debug.Log("FOUND A CHEST!!!!");
+                //Debug.Log("FOUND A CHEST!!!!");
                 chestInInventory = true;
                 break;
             }
@@ -129,8 +137,8 @@ public class LevelHandler : MonoBehaviour
         {
             //todo warn user and prevent the game proceeding
         }
-        Debug.Log("CHEST IN INVENTORY: " + chestInInventory);
-        Debug.Log("ALL CHESTS PLACED: " + allChestsPlaced);
+        //Debug.Log("CHEST IN INVENTORY: " + chestInInventory);
+        //Debug.Log("ALL CHESTS PLACED: " + allChestsPlaced);
     }
 
     public void SetUpGoldCount()
@@ -149,7 +157,8 @@ public class LevelHandler : MonoBehaviour
         pitSlots = levelScriptObj.chestCount + levelScriptObj.pitCount;
         spiderSlots = levelScriptObj.chestCount + levelScriptObj.pitCount + levelScriptObj.spiderCount;
         archerSlots = levelScriptObj.chestCount + levelScriptObj.pitCount + levelScriptObj.spiderCount + levelScriptObj.archerCount;
-        springSlots = totalSlots;
+        springSlots = levelScriptObj.chestCount + levelScriptObj.pitCount + levelScriptObj.spiderCount + levelScriptObj.archerCount + levelScriptObj.springCount;
+        spikeSlots = totalSlots;
     }
 
     public void PopulateInventory()
@@ -194,6 +203,11 @@ public class LevelHandler : MonoBehaviour
                 slot.name = "spring";
                 currentSlot.dragObject = springObject;
             }
+            else if (i >= springSlots && i < spikeSlots)
+            {
+                slot.name = "spike";
+                currentSlot.dragObject = spikeObject;
+            }
         }
         
     }
@@ -214,6 +228,11 @@ public class LevelHandler : MonoBehaviour
         {
             phaseCoroutine = StartCoroutine(BuildPhaseTimer(timerVar, spaces));
         }
+    }
+
+    public void RemoveGold(float goldToRemove)
+    {
+        currentGold = currentGold - goldToRemove;
     }
 
     private IEnumerator BuildPhaseTimer(float timer, Image[] spacesToManage)
@@ -277,7 +296,7 @@ public class LevelHandler : MonoBehaviour
             
             if (!slot.isWall && slot.dragObject.PrefabItem != null)
             {
-                Debug.Log("INFO: " + slot.isWall + " " + slot.dragObject.PrefabItem);
+                //Debug.Log("INFO: " + slot.isWall + " " + slot.dragObject.PrefabItem);
                 Transform pos = slot.GetComponentInChildren<Transform>();
                 GameObject slotObject = slot.gameObject;
                 //Debug.Log("Type.GetType(slot.dragObject.PrefabItem.GetType().Name) + " + Type.GetType(slot.dragObject.PrefabItem.GetType().Name));
@@ -286,6 +305,14 @@ public class LevelHandler : MonoBehaviour
                 instantiatedTrap.layer = slotObject.layer;
                 instantiatedTrap.tag = slotObject.tag;
                 instantiatedTrap.transform.parent = slotObject.transform; // Set the same parent
+                instantiatedTrap.layer = 6;
+                if (slot.dragObject.PrefabItem.tag != "Goal")
+                {
+                    instantiatedTrap.tag = "Trap";
+                } else
+                {
+                    instantiatedTrap.tag = "Goal";
+                }
                 //instantiatedTrap.transform.localScale = slotObject.transform.localScale; // Set the same scale
 
                 //Destroy the old object
